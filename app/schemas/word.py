@@ -1,9 +1,10 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class WordOut(BaseModel):
     id: int
-    value: str
+    text: str
     translation: str
-    topic: str
     level: str
+
+    model_config = ConfigDict(from_attributes=True)

@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.routers.words import router as words_router
-from app.api.routers.practice import router as practice_router
 
 app = FastAPI(
     title="[SK] Practice API",
@@ -21,7 +20,6 @@ app.add_middleware(
 )
 
 app.include_router(words_router)
-app.include_router(practice_router)
 
 
 @app.get("/")

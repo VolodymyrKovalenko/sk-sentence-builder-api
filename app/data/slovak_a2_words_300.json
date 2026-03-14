@@ -1,0 +1,3307 @@
+{
+  "language": "Slovak",
+  "level": "A2",
+  "total_words": 300,
+  "words": [
+    {
+      "slovak": "cestovať",
+      "english": "to travel",
+      "examples": [
+        "V lete chcem cestovať po Slovensku.",
+        "Rád cestujem vlakom do nových miest.",
+        "Budúci mesiac budeme cestovať do Košíc.",
+        "Nemám rád dlho cestovať bez plánu.",
+        "S kamarátmi chceme cestovať k moru."
+      ]
+    },
+    {
+      "slovak": "stanica",
+      "english": "station",
+      "examples": [
+        "Stanica je blízko centra.",
+        "Stretneme sa pred stanicou o piatej.",
+        "Na stanici bolo dnes veľa ľudí.",
+        "Autobusová stanica je hneď za rohom.",
+        "Zo stanice idem pešo domov."
+      ]
+    },
+    {
+      "slovak": "lístok",
+      "english": "ticket",
+      "examples": [
+        "Lístok si kupujem v mobile.",
+        "Máš už lístok na vlak?",
+        "Bez lístka nemôžeš cestovať.",
+        "Stratil som lístok v autobuse.",
+        "Spiatočný lístok bol lacnejší."
+      ]
+    },
+    {
+      "slovak": "meškať",
+      "english": "to be late",
+      "examples": [
+        "Autobus dnes zase mešká.",
+        "Nechcem meškať do práce.",
+        "Ak budeme meškať, zavolaj mi.",
+        "Vlak meškal dvadsať minút.",
+        "Ráno často meškám kvôli doprave."
+      ]
+    },
+    {
+      "slovak": "prísť",
+      "english": "to arrive",
+      "examples": [
+        "Môžeš prísť večer ku mne?",
+        "Nestihnem prísť načas do práce.",
+        "Kedy chceš prísť na stanicu?",
+        "Prišiel som domov veľmi neskoro.",
+        "Ak chceš, môžeš prísť aj zajtra."
+      ]
+    },
+    {
+      "slovak": "odísť",
+      "english": "to leave",
+      "examples": [
+        "Musím odísť z domu o siedmej.",
+        "Nechcem odísť bez rozlúčky.",
+        "Kedy máme odísť na letisko?",
+        "Odišli sme hneď po obede.",
+        "Ak začne pršať, radšej odídeme."
+      ]
+    },
+    {
+      "slovak": "pozvať",
+      "english": "to invite",
+      "examples": [
+        "Chcem ťa pozvať na večeru.",
+        "Pozvali nás na víkendovú oslavu.",
+        "Môžem pozvať aj svojho kamaráta?",
+        "Rada pozvem rodičov k nám domov.",
+        "Zabudla som ju pozvať na kávu."
+      ]
+    },
+    {
+      "slovak": "návšteva",
+      "english": "visit",
+      "examples": [
+        "Prišla k nám návšteva.",
+        "Idem na návštevu k rodičom.",
+        "Dnes večer čakáme návštevu.",
+        "Bol som na návšteve u priateľov.",
+        "Priatelia prišli na krátku návštevu."
+      ]
+    },
+    {
+      "slovak": "oslava",
+      "english": "celebration",
+      "examples": [
+        "V sobotu máme rodinnú oslavu.",
+        "Oslava sa začína o siedmej.",
+        "Na oslave bolo veľa jedla.",
+        "Pozvali nás na narodeninovú oslavu.",
+        "Po oslave sme išli pešo domov."
+      ]
+    },
+    {
+      "slovak": "darček",
+      "english": "gift",
+      "examples": [
+        "Kúpil som jej malý darček.",
+        "Darček som schoval do skrine.",
+        "Na stole ležal pekný darček.",
+        "Ešte neviem, aký darček vyberiem.",
+        "Ďakujem za milý darček."
+      ]
+    },
+    {
+      "slovak": "narodeniny",
+      "english": "birthday",
+      "examples": [
+        "Dnes má brat narodeniny.",
+        "Na narodeniny pečieme tortu.",
+        "Pozval ma na svoje narodeniny.",
+        "Na narodeniny mu kúpim knihu.",
+        "Cez víkend oslavujeme narodeniny doma."
+      ]
+    },
+    {
+      "slovak": "zabudnúť",
+      "english": "to forget",
+      "examples": [
+        "Nechcem zabudnúť kľúče doma.",
+        "Zabudol som kúpiť mlieko.",
+        "Ľahko zabudnem mená nových ľudí.",
+        "Prosím, nezabudni mi napísať.",
+        "Ráno som zabudla vypnúť svetlo."
+      ]
+    },
+    {
+      "slovak": "pamätať si",
+      "english": "to remember",
+      "examples": [
+        "Pamätám si tvoju adresu.",
+        "Už si nepamätám jeho meno.",
+        "Musíš si pamätať ten kód.",
+        "Dobre si pamätám náš prvý výlet.",
+        "Nepamätám si, kde som dal mobil."
+      ]
+    },
+    {
+      "slovak": "skúsiť",
+      "english": "to try",
+      "examples": [
+        "Chcem skúsiť nové jedlo.",
+        "Skús to povedať pomalšie.",
+        "Zajtra skúsim ísť skôr spať.",
+        "Môžeme skúsiť iný vlak.",
+        "Skúsil som to opraviť sám."
+      ]
+    },
+    {
+      "slovak": "pomôcť",
+      "english": "to help",
+      "examples": [
+        "Môžeš mi pomôcť s taškou?",
+        "Brat mi pomohol s úlohou.",
+        "Chcem pomôcť rodičom cez víkend.",
+        "Táto mapa mi veľmi pomohla.",
+        "Ak chceš, rád ti pomôžem."
+      ]
+    },
+    {
+      "slovak": "potrebovať",
+      "english": "to need",
+      "examples": [
+        "Potrebujem dnes viac času.",
+        "Na cestu potrebujeme pas.",
+        "Potrebuješ ešte moju pomoc?",
+        "Na večeru potrebujem kúpiť chlieb.",
+        "Teraz potrebujem chvíľu ticha."
+      ]
+    },
+    {
+      "slovak": "rozhodnúť sa",
+      "english": "to decide",
+      "examples": [
+        "Musím sa rozhodnúť do večera.",
+        "Rozhodli sme sa zostať doma.",
+        "Neviem sa rozhodnúť medzi dvoma hotelmi.",
+        "Rýchlo sa nerozhoduj.",
+        "Nakoniec som sa rozhodol ísť vlakom."
+      ]
+    },
+    {
+      "slovak": "čakať",
+      "english": "to wait",
+      "examples": [
+        "Čakám na autobus pred domom.",
+        "Nemám rád dlho čakať.",
+        "Prosím, počkaj na mňa chvíľu.",
+        "Pri dverách ma čakal kamarát.",
+        "Na jedlo sme čakali pol hodiny."
+      ]
+    },
+    {
+      "slovak": "ponáhľať sa",
+      "english": "to hurry",
+      "examples": [
+        "Nemusíš sa ponáhľať, máme čas.",
+        "Ráno sa vždy ponáhľam do práce.",
+        "Nechcem sa ponáhľať pri večeri.",
+        "Ak sa budeš ponáhľať, niečo zabudneš.",
+        "Dnes sa nikam neponáhľame."
+      ]
+    },
+    {
+      "slovak": "vrátiť sa",
+      "english": "to return",
+      "examples": [
+        "Chcem sa vrátiť domov skôr.",
+        "Po práci sa vrátim o šiestej.",
+        "Kedy sa vrátiš z dovolenky?",
+        "Vrátili sme sa unavení, ale spokojní.",
+        "Zajtra sa musím vrátiť do kancelárie."
+      ]
+    },
+    {
+      "slovak": "zavolať",
+      "english": "to call",
+      "examples": [
+        "Večer ti ešte zavolám.",
+        "Musím zavolať mame po práci.",
+        "Keď prídeš, zavolaj mi.",
+        "Zavolal som do reštaurácie a rezervoval stôl.",
+        "Ak bude problém, hneď mi zavolaj."
+      ]
+    },
+    {
+      "slovak": "správa",
+      "english": "message",
+      "examples": [
+        "Poslal som ti krátku správu.",
+        "Ráno ma zobudila nová správa.",
+        "Dostal som správu od sestry.",
+        "Tá správa ma veľmi potešila.",
+        "Ešte som neodpovedal na tvoju správu."
+      ]
+    },
+    {
+      "slovak": "otázka",
+      "english": "question",
+      "examples": [
+        "Mám na teba jednu otázku.",
+        "Táto otázka je celkom ťažká.",
+        "Učiteľ položil jednoduchú otázku.",
+        "Na konci mám ešte jednu otázku.",
+        "Neboj sa opýtať, ak máš otázku."
+      ]
+    },
+    {
+      "slovak": "odpoveď",
+      "english": "answer",
+      "examples": [
+        "Na tvoju správu som dostal rýchlu odpoveď.",
+        "Neviem správnu odpoveď.",
+        "Jeho odpoveď ma prekvapila.",
+        "Čakám na odpoveď z hotela.",
+        "Krátka odpoveď mi stačí."
+      ]
+    },
+    {
+      "slovak": "vysvetliť",
+      "english": "to explain",
+      "examples": [
+        "Môžeš mi to vysvetliť ešte raz?",
+        "Učiteľ vie dobre vysvetliť gramatiku.",
+        "Skúsim ti vysvetliť cestu.",
+        "Nikto mi nevysvetlil, čo sa stalo.",
+        "On to vie vysvetliť veľmi jednoducho."
+      ]
+    },
+    {
+      "slovak": "rozumieť",
+      "english": "to understand",
+      "examples": [
+        "Už lepšie rozumiem po slovensky.",
+        "Nerozumiem tejto správe.",
+        "Rozumieš, čo hovorím?",
+        "Deti tomu ešte nerozumejú.",
+        "Po kurze som začal viac rozumieť."
+      ]
+    },
+    {
+      "slovak": "zabávať sa",
+      "english": "to have fun",
+      "examples": [
+        "Na párty sme sa dobre zabávali.",
+        "Deti sa vonku zabávajú už hodinu.",
+        "Chcem sa cez víkend zabávať s kamarátmi.",
+        "Na oslave sa každý zabával.",
+        "Aj doma sa vieme zabávať."
+      ]
+    },
+    {
+      "slovak": "nudiť sa",
+      "english": "to be bored",
+      "examples": [
+        "Keď prší, doma sa nudím.",
+        "Deti sa začali nudiť po hodine.",
+        "Na dlhom stretnutí som sa nudil.",
+        "Nikdy sa nenudím pri dobrej knihe.",
+        "Bez internetu sa večer nudíme."
+      ]
+    },
+    {
+      "slovak": "smiať sa",
+      "english": "to laugh",
+      "examples": [
+        "Všetci sa smiali na jeho vtipe.",
+        "Rád sa smejem s kamarátmi.",
+        "Nemôžem sa prestať smiať.",
+        "Deti sa nahlas smiali na ihrisku.",
+        "Na tej fotke sa všetci smejú."
+      ]
+    },
+    {
+      "slovak": "plakať",
+      "english": "to cry",
+      "examples": [
+        "Dieťa začalo plakať v autobuse.",
+        "Nechcem plakať pred ľuďmi.",
+        "Po smutnom filme plakala.",
+        "Bábätko plakalo celú noc.",
+        "Keď ho niečo bolí, začne plakať."
+      ]
+    },
+    {
+      "slovak": "tešiť sa",
+      "english": "to look forward to / be happy",
+      "examples": [
+        "Teším sa na víkend.",
+        "Veľmi sa teším na dovolenku.",
+        "Deti sa tešia na darčeky.",
+        "Už sa teším na leto.",
+        "Tešíš sa na dnešnú oslavu?"
+      ]
+    },
+    {
+      "slovak": "báť sa",
+      "english": "to be afraid",
+      "examples": [
+        "Bojím sa lietať lietadlom.",
+        "Nemusíš sa toho báť.",
+        "Dieťa sa bojí tmy.",
+        "Bojím sa, že prídem neskoro.",
+        "V noci sa sama bojí chodiť von."
+      ]
+    },
+    {
+      "slovak": "zdravý",
+      "english": "healthy",
+      "examples": [
+        "Chcem jesť zdravé jedlo.",
+        "Po dovolenke sa cítim zdravý a silný.",
+        "Zdravý človek sa viac hýbe.",
+        "Raňajky by mali byť zdravé.",
+        "Lekár povedal, že som zdravý."
+      ]
+    },
+    {
+      "slovak": "chorý",
+      "english": "ill",
+      "examples": [
+        "Dnes som trochu chorý.",
+        "Keď je dieťa choré, zostane doma.",
+        "Minulý týždeň bol kolega chorý.",
+        "Nechodím do práce, keď som chorý.",
+        "Po daždi nechcem byť zase chorý."
+      ]
+    },
+    {
+      "slovak": "lekáreň",
+      "english": "pharmacy",
+      "examples": [
+        "Lekáreň je otvorená do ôsmej.",
+        "Po práci idem do lekárne.",
+        "Najbližšia lekáreň je za rohom.",
+        "V lekárni som kúpil vitamíny.",
+        "Pred lekárňou čakali ľudia."
+      ]
+    },
+    {
+      "slovak": "lieky",
+      "english": "medicine",
+      "examples": [
+        "Lekár mi predpísal lieky.",
+        "Lieky mám na stole v kuchyni.",
+        "Nezabudni si vziať lieky.",
+        "Tieto lieky beriem po jedle.",
+        "Bez liekov by mi nebolo lepšie."
+      ]
+    },
+    {
+      "slovak": "bolesť",
+      "english": "pain",
+      "examples": [
+        "Bolesť hlavy ma zobudila ráno.",
+        "Po cvičení som cítil bolesť chrbta.",
+        "Tá bolesť už našťastie ustúpila.",
+        "Pri zube som mal silnú bolesť.",
+        "Na chvíľu pomohla tabletka proti bolesti."
+      ]
+    },
+    {
+      "slovak": "oddychovať",
+      "english": "to rest",
+      "examples": [
+        "Po obede rád oddychujem.",
+        "Cez víkend chcem len oddychovať.",
+        "Po práci potrebujem oddychovať doma.",
+        "Na dovolenke sme veľa oddychovali.",
+        "Dnes budem oddychovať pri filme."
+      ]
+    },
+    {
+      "slovak": "cvičiť",
+      "english": "to exercise",
+      "examples": [
+        "Ráno chodím cvičiť do fitka.",
+        "Chcem cvičiť aspoň trikrát do týždňa.",
+        "Doma cvičím dvadsať minút denne.",
+        "Lekár mi odporučil viac cvičiť.",
+        "Keď mám čas, rád cvičím večer."
+      ]
+    },
+    {
+      "slovak": "raňajky",
+      "english": "breakfast",
+      "examples": [
+        "Raňajky jem doma o siedmej.",
+        "Na raňajky si dám jogurt.",
+        "Bez raňajok nechodím do práce.",
+        "Dnešné raňajky boli veľmi rýchle.",
+        "Cez víkend robíme dlhé raňajky."
+      ]
+    },
+    {
+      "slovak": "obed",
+      "english": "lunch",
+      "examples": [
+        "Obed mám o jednej.",
+        "Na obed si dám polievku.",
+        "Dnes bol obed veľmi chutný.",
+        "Po obede idem späť do práce.",
+        "Obed si nosím z domu."
+      ]
+    },
+    {
+      "slovak": "večera",
+      "english": "dinner",
+      "examples": [
+        "Večera bude o siedmej.",
+        "Na večeru si robím šalát.",
+        "Dnešná večera bola ľahká.",
+        "Po večeri si dám čaj.",
+        "Cez víkend jeme večeru neskôr."
+      ]
+    },
+    {
+      "slovak": "hladný",
+      "english": "hungry",
+      "examples": [
+        "Po tréningu som veľmi hladný.",
+        "Deti sú po škole vždy hladné.",
+        "Ak si hladný, urobím ti sendvič.",
+        "Ráno nie som veľmi hladný.",
+        "Večer bývam často hladný."
+      ]
+    },
+    {
+      "slovak": "smädný",
+      "english": "thirsty",
+      "examples": [
+        "Po behu som veľmi smädný.",
+        "Ak si smädný, nalej si vodu.",
+        "V lete bývam stále smädný.",
+        "Deti boli po výlete smädné.",
+        "Som smädný, dám si minerálku."
+      ]
+    },
+    {
+      "slovak": "reštaurácia",
+      "english": "restaurant",
+      "examples": [
+        "Tá reštaurácia je veľmi obľúbená.",
+        "Večer ideme do reštaurácie.",
+        "V tej reštaurácii varia dobre.",
+        "Pred reštauráciou už čakali hostia.",
+        "Nová reštaurácia je blízko nášho domu."
+      ]
+    },
+    {
+      "slovak": "objednať si",
+      "english": "to order",
+      "examples": [
+        "Chcem si objednať pizzu.",
+        "V reštaurácii som si objednal polievku.",
+        "Môžeš si objednať aj dezert.",
+        "Na obed si zvyčajne objednám šalát.",
+        "Dnes si objednáme jedlo domov."
+      ]
+    },
+    {
+      "slovak": "chutný",
+      "english": "tasty",
+      "examples": [
+        "Tá polievka bola veľmi chutná.",
+        "Včera sme mali chutný obed.",
+        "Chutný koláč zmizol za chvíľu.",
+        "To jedlo vyzerá chutne.",
+        "V tej reštaurácii majú vždy chutné jedlo."
+      ]
+    },
+    {
+      "slovak": "lacný",
+      "english": "cheap",
+      "examples": [
+        "Tento hotel je celkom lacný.",
+        "Kúpili sme lacné lístky online.",
+        "Hľadám lacný darček.",
+        "Ten obchod nie je vôbec lacný.",
+        "Lacná káva mi nechutí."
+      ]
+    },
+    {
+      "slovak": "drahý",
+      "english": "expensive",
+      "examples": [
+        "Tento kabát je príliš drahý.",
+        "Hotel v centre býva drahý.",
+        "Dnes je benzín drahý.",
+        "Nechcem kupovať drahé topánky.",
+        "Tá reštaurácia je dosť drahá."
+      ]
+    },
+    {
+      "slovak": "predávať",
+      "english": "to sell",
+      "examples": [
+        "Ten obchod predáva čerstvé pečivo.",
+        "Na trhu predávajú ovocie a zeleninu.",
+        "Chcem predať starý bicykel.",
+        "Internetový obchod predáva aj knihy.",
+        "Oni predávajú kávu so sebou."
+      ]
+    },
+    {
+      "slovak": "kupovať",
+      "english": "to buy",
+      "examples": [
+        "Radšej kupujem ovocie na trhu.",
+        "Dnes musím kúpiť chlieb a mlieko.",
+        "Nechcem kupovať zbytočnosti.",
+        "Cez internet často kupujem knihy.",
+        "Pred cestou kupujeme lístky vopred."
+      ]
+    },
+    {
+      "slovak": "zákazník",
+      "english": "customer",
+      "examples": [
+        "Zákazník čakal pri pokladni.",
+        "Predavačka sa usmiala na zákazníka.",
+        "Spokojný zákazník sa rád vráti.",
+        "V obchode bolo veľa zákazníkov.",
+        "Zákazník sa pýtal na cenu."
+      ]
+    },
+    {
+      "slovak": "obchod",
+      "english": "shop",
+      "examples": [
+        "Tento obchod je otvorený do deviatej.",
+        "Po práci idem do obchodu.",
+        "V obchode som kúpil ovocie.",
+        "Ten obchod je blízko stanice.",
+        "Pred obchodom parkovalo veľa áut."
+      ]
+    },
+    {
+      "slovak": "veľkosť",
+      "english": "size",
+      "examples": [
+        "Akú veľkosť nosíš?",
+        "Táto veľkosť mi nesedí.",
+        "Nemajú moju veľkosť topánok.",
+        "Skontroluj veľkosť na štítku.",
+        "Vybral som si správnu veľkosť."
+      ]
+    },
+    {
+      "slovak": "skúšobná kabínka",
+      "english": "fitting room",
+      "examples": [
+        "Skúšobná kabínka je vzadu vpravo.",
+        "V skúšobnej kabínke som si skúsil kabát.",
+        "Pred skúšobnou kabínkou bol rad.",
+        "Tá skúšobná kabínka je dnes voľná.",
+        "Do skúšobnej kabínky si vezmem dve tričká."
+      ]
+    },
+    {
+      "slovak": "nosiť",
+      "english": "to wear",
+      "examples": [
+        "V zime nosím teplý kabát.",
+        "Do práce nosím košeľu.",
+        "Ona rada nosí šaty.",
+        "Nechcem nosiť ťažkú tašku.",
+        "V lete nosíme ľahké oblečenie."
+      ]
+    },
+    {
+      "slovak": "košeľa",
+      "english": "shirt",
+      "examples": [
+        "Tá košeľa je mi trochu veľká.",
+        "Na stretnutie si oblečiem bielu košeľu.",
+        "Košeľa visí v skrini.",
+        "K tej bunde sa táto košeľa hodí.",
+        "Ráno som si vyžehlil košeľu."
+      ]
+    },
+    {
+      "slovak": "nohavice",
+      "english": "trousers",
+      "examples": [
+        "Tieto nohavice sú veľmi pohodlné.",
+        "Potrebujem nové nohavice do práce.",
+        "Nohavice sú mi trochu dlhé.",
+        "Vyskúšal som si dve nohavice.",
+        "Na turistiku nosím pevné nohavice."
+      ]
+    },
+    {
+      "slovak": "bunda",
+      "english": "jacket",
+      "examples": [
+        "Vonku je zima, vezmi si bundu.",
+        "Moja bunda visí na vešiaku.",
+        "Tá bunda je nepremokavá.",
+        "Kúpil som si novú bundu na jar.",
+        "V aute som zabudol bundu."
+      ]
+    },
+    {
+      "slovak": "počasie",
+      "english": "weather",
+      "examples": [
+        "Dnes je krásne počasie.",
+        "Počasie sa rýchlo mení.",
+        "Na víkend hlásia zlé počasie.",
+        "Ak bude pekné počasie, pôjdeme von.",
+        "Počasie v horách býva nevyspytateľné."
+      ]
+    },
+    {
+      "slovak": "oblaky",
+      "english": "clouds",
+      "examples": [
+        "Na oblohe sú tmavé oblaky.",
+        "Oblaky zakryli slnko.",
+        "Poobede prišli ťažké oblaky.",
+        "Dnes sú oblaky veľmi nízko.",
+        "Bez oblakov by bolo viac teplo."
+      ]
+    },
+    {
+      "slovak": "pršať",
+      "english": "to rain",
+      "examples": [
+        "Dnes bude celý deň pršať.",
+        "Keď prší, beriem si dáždnik.",
+        "V noci začalo pršať.",
+        "Ak bude pršať, zostaneme doma.",
+        "Ráno pršalo len chvíľu."
+      ]
+    },
+    {
+      "slovak": "snežiť",
+      "english": "to snow",
+      "examples": [
+        "V horách začalo snežiť.",
+        "Dúfam, že cez víkend bude snežiť.",
+        "Ráno ešte nesnežilo.",
+        "Keď sneží, cesta býva šmykľavá.",
+        "Minulú noc poriadne snežilo."
+      ]
+    },
+    {
+      "slovak": "vietor",
+      "english": "wind",
+      "examples": [
+        "Dnes fúka silný vietor.",
+        "Vietor zatvoril dvere.",
+        "Pri jazere bol studený vietor.",
+        "Nemám rád vietor v zime.",
+        "Kvôli vetru som si vzal bundu."
+      ]
+    },
+    {
+      "slovak": "teplota",
+      "english": "temperature",
+      "examples": [
+        "Teplota dnes klesla pod nulu.",
+        "Ráno bola teplota veľmi nízka.",
+        "V lete teplota často stúpa.",
+        "Skontroluj teplotu v chladničke.",
+        "Izbová teplota je príjemná."
+      ]
+    },
+    {
+      "slovak": "jar",
+      "english": "spring",
+      "examples": [
+        "Jar je moje obľúbené ročné obdobie.",
+        "Na jar všetko kvitne.",
+        "Táto jar je zatiaľ studená.",
+        "Na jar chodíme viac von.",
+        "Jar prišla tento rok skoro."
+      ]
+    },
+    {
+      "slovak": "leto",
+      "english": "summer",
+      "examples": [
+        "V lete chodíme k jazeru.",
+        "Toto leto bude horúce.",
+        "Na leto plánujeme dovolenku.",
+        "V lete nosím krátke tričko.",
+        "Leto sa už pomaly končí."
+      ]
+    },
+    {
+      "slovak": "jeseň",
+      "english": "autumn",
+      "examples": [
+        "Na jeseň býva veľa dažďa.",
+        "Jeseň mám rád kvôli farbám.",
+        "Táto jeseň je veľmi teplá.",
+        "Na jeseň nosím kabát.",
+        "Jeseň prišla tento rok skoro."
+      ]
+    },
+    {
+      "slovak": "zima",
+      "english": "winter",
+      "examples": [
+        "V zime často sneží.",
+        "Táto zima je veľmi chladná.",
+        "Na zimu si kupujem nové čižmy.",
+        "V zime pijem viac čaju.",
+        "Zima u nás býva dlhá."
+      ]
+    },
+    {
+      "slovak": "príroda",
+      "english": "nature",
+      "examples": [
+        "Cez víkend chodíme radi do prírody.",
+        "Ticho v prírode mi robí dobre.",
+        "Slovenská príroda je krásna.",
+        "Po práci potrebujem trochu prírody.",
+        "Deti sa v prírode veľa naučia."
+      ]
+    },
+    {
+      "slovak": "hora",
+      "english": "mountain",
+      "examples": [
+        "Tá hora vyzerá z diaľky krásne.",
+        "V lete chodíme do hôr.",
+        "Na tú horu sa dá ísť pešo.",
+        "Hora bola ráno zahalená v hmle.",
+        "Z vrchu hory bol pekný výhľad."
+      ]
+    },
+    {
+      "slovak": "jazero",
+      "english": "lake",
+      "examples": [
+        "Pri jazere bolo veľmi pokojne.",
+        "V lete chodíme plávať k jazeru.",
+        "To jazero je blízko lesa.",
+        "Pri jazere sme mali piknik.",
+        "Jazero bolo dnes úplne tiché."
+      ]
+    },
+    {
+      "slovak": "les",
+      "english": "forest",
+      "examples": [
+        "Do lesa chodíme na prechádzku.",
+        "V lese bolo po daždi mokro.",
+        "Ten les je blízko našej chaty.",
+        "V lese sme počuli vtáky.",
+        "Na jeseň je les najkrajší."
+      ]
+    },
+    {
+      "slovak": "prechádzka",
+      "english": "walk",
+      "examples": [
+        "Po večeri si dám krátku prechádzku.",
+        "Tá prechádzka mi urobila dobre.",
+        "V nedeľu ideme na dlhú prechádzku.",
+        "Počas prechádzky sme stretli suseda.",
+        "Ranná prechádzka ma vždy preberie."
+      ]
+    },
+    {
+      "slovak": "výlet",
+      "english": "trip",
+      "examples": [
+        "V sobotu plánujeme výlet do hôr.",
+        "Náš výlet sa vydaril.",
+        "Na výlet si beriem vodu a mapu.",
+        "Deti sa tešia na školský výlet.",
+        "Po výlete sme boli unavení."
+      ]
+    },
+    {
+      "slovak": "mapa",
+      "english": "map",
+      "examples": [
+        "Bez mapy sa ľahko stratím.",
+        "Mapa je v mobile oveľa praktickejšia.",
+        "Pozri sa na mapu a ukáž cestu.",
+        "Tá mapa nie je veľmi presná.",
+        "Pred výletom som si stiahol mapu."
+      ]
+    },
+    {
+      "slovak": "hotel",
+      "english": "hotel",
+      "examples": [
+        "Hotel je hneď pri centre.",
+        "Náš hotel má peknú recepciu.",
+        "V hoteli sme strávili dve noci.",
+        "Raňajky v hoteli boli chutné.",
+        "Hotel som rezervoval online."
+      ]
+    },
+    {
+      "slovak": "izba",
+      "english": "room",
+      "examples": [
+        "Moja izba je malá, ale útulná.",
+        "Izba v hoteli bola čistá.",
+        "V izbe mám veľké okno.",
+        "Deti si upratali izbu.",
+        "Večer som sa vrátil do izby."
+      ]
+    },
+    {
+      "slovak": "rezervovať",
+      "english": "to reserve",
+      "examples": [
+        "Chcem rezervovať izbu na dve noci.",
+        "Musíme rezervovať stôl vopred.",
+        "Rezervoval som hotel cez internet.",
+        "Je lepšie rezervovať lístky skôr.",
+        "Skúsim rezervovať termín na pondelok."
+      ]
+    },
+    {
+      "slovak": "pracovať",
+      "english": "to work",
+      "examples": [
+        "Dnes pracujem z domu.",
+        "V kancelárii pracujem do piatej.",
+        "Chcem pracovať pokojne a bez stresu.",
+        "Na tomto projekte pracujeme spolu.",
+        "V sobotu nechcem pracovať."
+      ]
+    },
+    {
+      "slovak": "zamestnanie",
+      "english": "job",
+      "examples": [
+        "Hľadám nové zamestnanie.",
+        "Jeho zamestnanie je veľmi zaujímavé.",
+        "Po škole si našla dobré zamestnanie.",
+        "Stále nemám stabilné zamestnanie.",
+        "Zamestnanie v centre mi vyhovuje."
+      ]
+    },
+    {
+      "slovak": "kolega",
+      "english": "colleague",
+      "examples": [
+        "Môj kolega je veľmi ochotný.",
+        "S kolegom chodím na obed.",
+        "Kolega dnes pracuje z domu.",
+        "Nový kolega nastúpi v pondelok.",
+        "Po práci som sa rozprával s kolegom."
+      ]
+    },
+    {
+      "slovak": "stretnutie",
+      "english": "meeting",
+      "examples": [
+        "Ráno mám pracovné stretnutie.",
+        "Naše stretnutie trvalo hodinu.",
+        "Stretnutie sme presunuli na zajtra.",
+        "Pred stretnutím si dám kávu.",
+        "Dnes večer mám stretnutie s kamarátmi."
+      ]
+    },
+    {
+      "slovak": "projekt",
+      "english": "project",
+      "examples": [
+        "Tento projekt trvá už mesiac.",
+        "Na projekte pracuje celý tím.",
+        "Projekt sme dokončili načas.",
+        "Zajtra máme stretnutie o projekte.",
+        "Tento projekt je pre mňa dôležitý."
+      ]
+    },
+    {
+      "slovak": "začať",
+      "english": "to start",
+      "examples": [
+        "Musíme začať načas.",
+        "Chcem začať nový kurz slovenčiny.",
+        "Začali sme variť o šiestej.",
+        "Kedy začne stretnutie?",
+        "V pondelok začnem cvičiť."
+      ]
+    },
+    {
+      "slovak": "skončiť",
+      "english": "to finish",
+      "examples": [
+        "Práca skončila o piatej.",
+        "Chcem skončiť skôr dnes.",
+        "Film sa skončil neskoro.",
+        "Kedy sa skončí porada?",
+        "Kurz skončil minulý týždeň."
+      ]
+    },
+    {
+      "slovak": "voľný čas",
+      "english": "free time",
+      "examples": [
+        "Vo voľnom čase rád čítam.",
+        "Nemám veľa voľného času.",
+        "Cez víkend mám konečne voľný čas.",
+        "Voľný čas trávime v prírode.",
+        "Každý potrebuje trochu voľného času."
+      ]
+    },
+    {
+      "slovak": "koníček",
+      "english": "hobby",
+      "examples": [
+        "Fotografovanie je môj koníček.",
+        "Jej koníček je maľovanie.",
+        "Každý by mal mať nejaký koníček.",
+        "O svojom koníčku vie hovoriť dlho.",
+        "Nový koníček mi robí radosť."
+      ]
+    },
+    {
+      "slovak": "hudba",
+      "english": "music",
+      "examples": [
+        "Pri práci počúvam tichú hudbu.",
+        "Tá hudba je veľmi príjemná.",
+        "V aute hrá dobrá hudba.",
+        "Bez hudby si neviem predstaviť dlhú cestu.",
+        "Večer si pustím relaxačnú hudbu."
+      ]
+    },
+    {
+      "slovak": "film",
+      "english": "film",
+      "examples": [
+        "Včera sme pozerali dobrý film.",
+        "Ten film bol veľmi smutný.",
+        "Na tento film sa teším už dlho.",
+        "Po filme sme išli domov.",
+        "Máš rád akčný film?"
+      ]
+    },
+    {
+      "slovak": "kniha",
+      "english": "book",
+      "examples": [
+        "Teraz čítam zaujímavú knihu.",
+        "Tá kniha má dobrý príbeh.",
+        "Knihu som si kúpil na stanici.",
+        "Večer si čítam knihu v posteli.",
+        "Túto knihu ti môžem požičať."
+      ]
+    },
+    {
+      "slovak": "šport",
+      "english": "sport",
+      "examples": [
+        "Šport je dôležitý pre zdravie.",
+        "Môj obľúbený šport je plávanie.",
+        "Deti robia šport po škole.",
+        "Bez športu sa cítim horšie.",
+        "Cez víkend sledujem šport v televízii."
+      ]
+    },
+    {
+      "slovak": "hrať",
+      "english": "to play",
+      "examples": [
+        "Deti sa hrajú na dvore.",
+        "Rád hrám futbal s kamarátmi.",
+        "Večer si zahráme karty.",
+        "Na gitare hrá veľmi dobre.",
+        "V parku sa hrali malé deti."
+      ]
+    },
+    {
+      "slovak": "maľovať",
+      "english": "to paint",
+      "examples": [
+        "Vo voľnom čase rád maľujem.",
+        "Deti maľujú farebné obrázky.",
+        "Chcem maľovať stenu v obývačke.",
+        "Nikdy som nevedel dobre maľovať.",
+        "Cez víkend budeme maľovať byt."
+      ]
+    },
+    {
+      "slovak": "fotografovať",
+      "english": "to photograph",
+      "examples": [
+        "Na výletoch rád fotografujem prírodu.",
+        "Počas svadby fotografoval celý deň.",
+        "Nechcem fotografovať bez dovolenia.",
+        "Dnes budem fotografovať mesto večer.",
+        "Mobilom sa dá fotografovať celkom dobre."
+      ]
+    },
+    {
+      "slovak": "učiť sa",
+      "english": "to study",
+      "examples": [
+        "Každý deň sa učím po slovensky.",
+        "Večer sa učím nové slová.",
+        "Je ťažké učiť sa, keď si unavený.",
+        "Na skúšku sa učíme spolu.",
+        "Najlepšie sa učím ráno."
+      ]
+    },
+    {
+      "slovak": "slovník",
+      "english": "dictionary",
+      "examples": [
+        "Nové slovo si hľadám v slovníku.",
+        "Tento slovník je veľmi užitočný.",
+        "V mobile mám online slovník.",
+        "Bez slovníka by som tomu nerozumel.",
+        "Kúpil som si nový slovník slovenčiny."
+      ]
+    },
+    {
+      "slovak": "jazyk",
+      "english": "language",
+      "examples": [
+        "Slovenský jazyk sa učím každý deň.",
+        "Cudzí jazyk sa najlepšie učí v praxi.",
+        "Jazyk je kľúč k novej práci.",
+        "Má rád jazyky a cestovanie.",
+        "Tento jazyk znie zaujímavo."
+      ]
+    },
+    {
+      "slovak": "cudzinec",
+      "english": "foreigner",
+      "examples": [
+        "Ako cudzinec sa tu cítim dobre.",
+        "Cudzinec sa pýtal na cestu.",
+        "V našom tíme pracuje jeden cudzinec.",
+        "Pre cudzinca je slovenčina ťažká.",
+        "V meste stretneš veľa cudzincov."
+      ]
+    },
+    {
+      "slovak": "sused",
+      "english": "neighbor",
+      "examples": [
+        "Náš sused je veľmi milý.",
+        "Sused nám pomohol s taškami.",
+        "Včera som stretol suseda na chodbe.",
+        "Máme tichého suseda.",
+        "Sused býva o poschodie vyššie."
+      ]
+    },
+    {
+      "slovak": "adresa",
+      "english": "address",
+      "examples": [
+        "Napíš mi svoju adresu.",
+        "Tá adresa mi nič nehovorí.",
+        "Bez správnej adresy to nenájdem.",
+        "Zadal som adresu do navigácie.",
+        "Na obálku som napísal adresu."
+      ]
+    },
+    {
+      "slovak": "poschodie",
+      "english": "floor / storey",
+      "examples": [
+        "Bývam na treťom poschodí.",
+        "Naše kancelárie sú na druhom poschodí.",
+        "Na toto poschodie ide výťah.",
+        "Na každom poschodí je jedna kuchyňa.",
+        "Do piateho poschodia idem pešo."
+      ]
+    },
+    {
+      "slovak": "výťah",
+      "english": "elevator",
+      "examples": [
+        "Výťah dnes nefunguje.",
+        "Počkáme pri výťahu.",
+        "Tento výťah ide veľmi pomaly.",
+        "Vo výťahu bolo plno.",
+        "Radšej idem výťahom než po schodoch."
+      ]
+    },
+    {
+      "slovak": "schody",
+      "english": "stairs",
+      "examples": [
+        "Do bytu vedú úzke schody.",
+        "Po schodoch chodím radšej pešo.",
+        "Na schodoch nesedávaj.",
+        "Tieto schody sú dosť strmé.",
+        "Výťah nešiel, tak sme išli po schodoch."
+      ]
+    },
+    {
+      "slovak": "kľúč",
+      "english": "key",
+      "examples": [
+        "Kľúč som nechal na stole.",
+        "Bez kľúča sa dnu nedostanem.",
+        "Máš náhradný kľúč?",
+        "Kľúč od auta je v taške.",
+        "Ráno som dlho hľadal kľúč."
+      ]
+    },
+    {
+      "slovak": "prenajať si",
+      "english": "to rent",
+      "examples": [
+        "Chceme si prenajať menší byt.",
+        "Na víkend si prenajmeme auto.",
+        "Je lacnejšie prenajať si izbu vopred.",
+        "Plánujem si prenajať kanceláriu v centre.",
+        "Na leto si chceme prenajať chatu."
+      ]
+    },
+    {
+      "slovak": "sťahovať sa",
+      "english": "to move house",
+      "examples": [
+        "Budúci mesiac sa sťahujeme.",
+        "Nechcem sa sťahovať v zime.",
+        "Sťahovali sme sa celý víkend.",
+        "Kedy sa sťahuješ do nového bytu?",
+        "Po práci sa už nechcem sťahovať."
+      ]
+    },
+    {
+      "slovak": "opraviť",
+      "english": "to repair",
+      "examples": [
+        "Musím opraviť lampu v izbe.",
+        "Vieš opraviť túto stoličku?",
+        "Telefón sa už nedal opraviť.",
+        "Zajtra skúsim opraviť dvere.",
+        "Majster prišiel opraviť práčku."
+      ]
+    },
+    {
+      "slovak": "pokaziť sa",
+      "english": "to break down",
+      "examples": [
+        "Výťah sa dnes pokazil.",
+        "Ak sa niečo pokazí, zavolám servis.",
+        "V chladničke sa pokazilo svetlo.",
+        "Auto sa pokazilo na diaľnici.",
+        "Dúfam, že sa práčka nepokazí znova."
+      ]
+    },
+    {
+      "slovak": "čistý",
+      "english": "clean",
+      "examples": [
+        "Byt je po upratovaní čistý.",
+        "V hoteli bola izba čistá.",
+        "Mám rád čistý stôl.",
+        "Po daždi bol vzduch čistý.",
+        "Prosím, nechaj kúpeľňu čistú."
+      ]
+    },
+    {
+      "slovak": "špinavý",
+      "english": "dirty",
+      "examples": [
+        "Po výlete boli topánky špinavé.",
+        "Tento uterák je už špinavý.",
+        "Nechcem sedieť na špinavej stoličke.",
+        "Po práci som mal špinavé ruky.",
+        "Tričko je špinavé, dám ho do práčky."
+      ]
+    },
+    {
+      "slovak": "upratovať",
+      "english": "to clean up",
+      "examples": [
+        "V sobotu vždy upratujem byt.",
+        "Dnes musím upratovať kuchyňu.",
+        "Pred návštevou sme rýchlo upratovali.",
+        "Nemám rád upratovať večer.",
+        "Keď je doma poriadok, nemusím veľa upratovať."
+      ]
+    },
+    {
+      "slovak": "prať",
+      "english": "to wash clothes",
+      "examples": [
+        "Dnes budem prať oblečenie.",
+        "Vždy periem tmavé a svetlé zvlášť.",
+        "Musím vyprať uteráky.",
+        "Periem raz za dva dni.",
+        "Ráno som dal prať bielizeň."
+      ]
+    },
+    {
+      "slovak": "žehliť",
+      "english": "to iron",
+      "examples": [
+        "Neznášam žehliť košele.",
+        "Večer budem žehliť oblečenie na zajtra.",
+        "Mama mi ukázala, ako žehliť sveter.",
+        "Nemusím žehliť tričká.",
+        "Po praní ešte zostáva žehliť."
+      ]
+    },
+    {
+      "slovak": "variť",
+      "english": "to cook",
+      "examples": [
+        "Dnes budem variť polievku.",
+        "Rád varím pre rodinu.",
+        "Nevie variť bez receptu.",
+        "Večer budeme variť spolu.",
+        "Cez víkend chcem variť niečo nové."
+      ]
+    },
+    {
+      "slovak": "piecť",
+      "english": "to bake",
+      "examples": [
+        "Na nedeľu budem piecť koláč.",
+        "Mama rada pečie doma chlieb.",
+        "Dnes nechcem piecť nič sladké.",
+        "Vianočné koláče pečieme spolu.",
+        "Koláč sa piekol v rúre hodinu."
+      ]
+    },
+    {
+      "slovak": "krájať",
+      "english": "to cut",
+      "examples": [
+        "Môžeš krájať paradajky?",
+        "Pri varení som krájal cibuľu.",
+        "Treba krájať chlieb opatrne.",
+        "Nemám rád krájať cibuľu.",
+        "Na šalát budeme krájať uhorku."
+      ]
+    },
+    {
+      "slovak": "miešať",
+      "english": "to mix",
+      "examples": [
+        "Polievku treba často miešať.",
+        "Miešam cukor do kávy.",
+        "Pri varení stále miešala omáčku.",
+        "Nemusíš to tak rýchlo miešať.",
+        "Deti radi miešajú cesto."
+      ]
+    },
+    {
+      "slovak": "tanier",
+      "english": "plate",
+      "examples": [
+        "Polož tanier na stôl.",
+        "Na tanieri zostal kúsok koláča.",
+        "V skrini máme čisté taniere.",
+        "Tanier sa mi šmykol z ruky.",
+        "Na obed som si vzal veľký tanier."
+      ]
+    },
+    {
+      "slovak": "lyžica",
+      "english": "spoon",
+      "examples": [
+        "Polievku jem lyžicou.",
+        "Do kávy dávam jednu lyžicu cukru.",
+        "Na stole chýbala lyžica.",
+        "Tá lyžica je už stará.",
+        "V zásuvke som našiel malú lyžicu."
+      ]
+    },
+    {
+      "slovak": "vidlička",
+      "english": "fork",
+      "examples": [
+        "Bez vidličky sa cestoviny jedia ťažko.",
+        "Na stole bola len jedna vidlička.",
+        "Vzal som si čistú vidličku.",
+        "Tá vidlička spadla na zem.",
+        "Potrebujem vidličku na šalát."
+      ]
+    },
+    {
+      "slovak": "nôž",
+      "english": "knife",
+      "examples": [
+        "Tento nôž je veľmi ostrý.",
+        "Chlieb krájam týmto nožom.",
+        "Polož nôž ďalej od detí.",
+        "V kuchyni chýba malý nôž.",
+        "S tupým nožom sa zle krája."
+      ]
+    },
+    {
+      "slovak": "šálka",
+      "english": "cup",
+      "examples": [
+        "Ráno pijem čaj z veľkej šálky.",
+        "Tá šálka je ešte horúca.",
+        "Na stole stála modrá šálka.",
+        "Dostal som keramickú šálku ako darček.",
+        "Bez šálky si kávu nedám."
+      ]
+    },
+    {
+      "slovak": "pohár",
+      "english": "glass",
+      "examples": [
+        "Nalej mi vodu do pohára.",
+        "Pohár stál na okne.",
+        "Ten pohár je už prázdny.",
+        "Na stole sa rozbil pohár.",
+        "Vzal som si čistý pohár."
+      ]
+    },
+    {
+      "slovak": "fľaša",
+      "english": "bottle",
+      "examples": [
+        "Vo fľaši je minerálka.",
+        "Kúpil som si veľkú fľašu vody.",
+        "Prázdnu fľašu som vyhodil.",
+        "Fľaša zostala v aute.",
+        "Na stole bola otvorená fľaša."
+      ]
+    },
+    {
+      "slovak": "chladnička",
+      "english": "fridge",
+      "examples": [
+        "Mlieko je v chladničke.",
+        "Naša chladnička je už stará.",
+        "Chladnička dnes veľmi hučí.",
+        "Otvor chladničku a pozri sa.",
+        "V chladničke už nie je maslo."
+      ]
+    },
+    {
+      "slovak": "mraznička",
+      "english": "freezer",
+      "examples": [
+        "Zmrzlina je v mrazničke.",
+        "Mraznička je úplne plná.",
+        "Mäso dávam hneď do mrazničky.",
+        "Naša mraznička potrebuje vyčistiť.",
+        "V mrazničke mám ľad aj zeleninu."
+      ]
+    },
+    {
+      "slovak": "sporák",
+      "english": "stove",
+      "examples": [
+        "Na sporáku sa varí polievka.",
+        "Tento sporák funguje dobre.",
+        "Po varení vždy vypnem sporák.",
+        "Sporák je ešte horúci.",
+        "Bez sporáka dnes neuvarím večeru."
+      ]
+    },
+    {
+      "slovak": "rúra",
+      "english": "oven",
+      "examples": [
+        "Koláč je už v rúre.",
+        "Rúra sa pomaly zohrieva.",
+        "Tá rúra potrebuje vyčistiť.",
+        "Kurča pečieme v rúre.",
+        "Nezabudni vypnúť rúru."
+      ]
+    },
+    {
+      "slovak": "umývačka",
+      "english": "dishwasher",
+      "examples": [
+        "Umývačka je už plná.",
+        "Po večeri zapnem umývačku.",
+        "Naša umývačka sa pokazila.",
+        "V umývačke zostali mokré taniere.",
+        "Do umývačky dávam len riad."
+      ]
+    },
+    {
+      "slovak": "práčka",
+      "english": "washing machine",
+      "examples": [
+        "Práčka dnes perie celý deň.",
+        "Tá práčka je dosť hlučná.",
+        "Do práčky som dal uteráky.",
+        "Naša práčka sa pokazila.",
+        "Po praní vypnem práčku."
+      ]
+    },
+    {
+      "slovak": "uterák",
+      "english": "towel",
+      "examples": [
+        "Čistý uterák je v kúpeľni.",
+        "Po sprche potrebujem suchý uterák.",
+        "Uterák som zavesil na dvere.",
+        "Na pláž si beriem veľký uterák.",
+        "Tento uterák je ešte mokrý."
+      ]
+    },
+    {
+      "slovak": "mydlo",
+      "english": "soap",
+      "examples": [
+        "Mydlo je pri umývadle.",
+        "Kúpil som nové mydlo.",
+        "Bez mydla si ruky neumyjem.",
+        "To mydlo pekne vonia.",
+        "V kúpeľni už dochádza mydlo."
+      ]
+    },
+    {
+      "slovak": "šampón",
+      "english": "shampoo",
+      "examples": [
+        "Šampón mám v sprche.",
+        "Kúpil som si nový šampón.",
+        "Tento šampón mi vyhovuje.",
+        "Bez šampónu si neumývam vlasy.",
+        "Šampón som nechal v kúpeľni."
+      ]
+    },
+    {
+      "slovak": "zubná kefka",
+      "english": "toothbrush",
+      "examples": [
+        "Zubná kefka je pri umývadle.",
+        "Každé tri mesiace mením zubnú kefku.",
+        "Na cestu si balím zubnú kefku.",
+        "Dieťa má modrú zubnú kefku.",
+        "Bez zubnej kefky na noc nechodím spať."
+      ]
+    },
+    {
+      "slovak": "zubná pasta",
+      "english": "toothpaste",
+      "examples": [
+        "Zubná pasta už skoro došla.",
+        "Kúp prosím novú zubnú pastu.",
+        "Na cestách mám malú zubnú pastu.",
+        "Bez zubnej pasty si zuby neumyjem.",
+        "Zubná pasta je v skrinke."
+      ]
+    },
+    {
+      "slovak": "sprcha",
+      "english": "shower",
+      "examples": [
+        "Ráno si dávam rýchlu sprchu.",
+        "Po tréningu potrebujem sprchu.",
+        "Tá sprcha má silný tlak vody.",
+        "V hoteli bola veľká sprcha.",
+        "Sprcha je rýchlejšia ako vaňa."
+      ]
+    },
+    {
+      "slovak": "vaňa",
+      "english": "bathtub",
+      "examples": [
+        "Po dlhom dni si dám horúcu vaňu.",
+        "V kúpeľni máme len vaňu.",
+        "Dieťa sa hrá vo vani.",
+        "Vaňa je plná teplej vody.",
+        "Niekedy mám radšej vaňu ako sprchu."
+      ]
+    },
+    {
+      "slovak": "zrkadlo",
+      "english": "mirror",
+      "examples": [
+        "V predsieni máme veľké zrkadlo.",
+        "Pozrel som sa do zrkadla.",
+        "Zrkadlo visí nad umývadlom.",
+        "Na zrkadle boli kvapky vody.",
+        "Pred odchodom sa vždy pozriem do zrkadla."
+      ]
+    },
+    {
+      "slovak": "hrebeň",
+      "english": "comb",
+      "examples": [
+        "Hrebeň mám v taške.",
+        "Po sprche potrebujem hrebeň.",
+        "Ten hrebeň je už starý.",
+        "Kúpil som si nový hrebeň.",
+        "Bez hrebeňa neodchádzam z domu."
+      ]
+    },
+    {
+      "slovak": "myť sa",
+      "english": "to wash oneself",
+      "examples": [
+        "Ráno sa vždy umývam studenou vodou.",
+        "Deti sa už vedia samy umyť.",
+        "Po športe sa musím umyť.",
+        "Večer sa umývam pred spaním.",
+        "Po práci sa chcem rýchlo umyť."
+      ]
+    },
+    {
+      "slovak": "obliecť sa",
+      "english": "to get dressed",
+      "examples": [
+        "Musím sa rýchlo obliecť.",
+        "Vonku je zima, dobre sa obleč.",
+        "Deti sa už vedia samy obliecť.",
+        "Na oslavu sa chcem pekne obliecť.",
+        "Po sprche sa hneď oblečiem."
+      ]
+    },
+    {
+      "slovak": "vyzliecť sa",
+      "english": "to get undressed",
+      "examples": [
+        "Doma sa hneď vyzlečiem z kabáta.",
+        "Dieťa sa ešte nevie samo vyzliecť.",
+        "Po príchode som sa rýchlo vyzliekol.",
+        "V lete sa chceme vyzliecť do plaviek.",
+        "Pred spaním sa vždy vyzlečiem."
+      ]
+    },
+    {
+      "slovak": "zobudiť sa",
+      "english": "to wake up",
+      "examples": [
+        "Dnes som sa zobudil veľmi skoro.",
+        "V noci som sa zobudil na hluk.",
+        "Nechcem sa zobudiť neskoro.",
+        "Dieťa sa zobudilo o šiestej.",
+        "Zobudil som sa ešte pred budíkom."
+      ]
+    },
+    {
+      "slovak": "vstať",
+      "english": "to get up",
+      "examples": [
+        "Ráno musím vstať o šiestej.",
+        "Nechce sa mi vstať z postele.",
+        "Keď zazvoní budík, hneď vstanem.",
+        "Cez víkend vstávam neskôr.",
+        "Dnes som vstal s dobrou náladou."
+      ]
+    },
+    {
+      "slovak": "ľahnúť si",
+      "english": "to lie down",
+      "examples": [
+        "Po obede si chcem na chvíľu ľahnúť.",
+        "Bol som unavený, tak som si ľahol.",
+        "Keď ma bolí hlava, ľahnem si.",
+        "Dnes si ľahnem skôr.",
+        "Dieťa si nechcelo ľahnúť spať."
+      ]
+    },
+    {
+      "slovak": "spať",
+      "english": "to sleep",
+      "examples": [
+        "Chcem dnes spať aspoň osem hodín.",
+        "V hoteli sa mi spalo dobre.",
+        "Deti už spia.",
+        "Nemôžem spať, keď je hluk.",
+        "Cez víkend rád spím dlhšie."
+      ]
+    },
+    {
+      "slovak": "snívať",
+      "english": "to dream",
+      "examples": [
+        "V noci sa mi sníval zvláštny sen.",
+        "Deti často snívajú o zvieratách.",
+        "Neviem, o čom sa mi včera snívalo.",
+        "Niekedy sa mi sníva o mori.",
+        "Počas choroby sa mi veľa sníva."
+      ]
+    },
+    {
+      "slovak": "unavený",
+      "english": "tired",
+      "examples": [
+        "Po práci som unavený.",
+        "Včera som bol taký unavený, že som hneď zaspal.",
+        "Po dlhej ceste boli všetci unavení.",
+        "Dnes vyzeráš unavený.",
+        "Keď som unavený, idem skôr spať."
+      ]
+    },
+    {
+      "slovak": "odpočívať",
+      "english": "to relax",
+      "examples": [
+        "Po obede chcem chvíľu odpočívať.",
+        "Na chate sa dobre odpočíva.",
+        "Cez víkend budem len odpočívať.",
+        "Po dlhej ceste sme odpočívali v hoteli.",
+        "Najradšej odpočívam pri hudbe."
+      ]
+    },
+    {
+      "slovak": "návod",
+      "english": "instruction manual",
+      "examples": [
+        "Najprv som si prečítal návod.",
+        "Bez návodu to nezložím.",
+        "Návod bol veľmi jednoduchý.",
+        "K prístroju bol priložený návod.",
+        "Podľa návodu to trvá desať minút."
+      ]
+    },
+    {
+      "slovak": "oprava",
+      "english": "repair",
+      "examples": [
+        "Oprava auta bola drahá.",
+        "Na opravu čakám už týždeň.",
+        "Tá oprava netrvala dlho.",
+        "Po oprave všetko funguje.",
+        "Oprava práčky nás stála veľa peňazí."
+      ]
+    },
+    {
+      "slovak": "účet",
+      "english": "bill / account",
+      "examples": [
+        "Účet zaplatíme spolu.",
+        "Čašník nám priniesol účet.",
+        "Mesačný účet za elektrinu bol vyšší.",
+        "Na účte mám ešte dosť peňazí.",
+        "Prosím si účet."
+      ]
+    },
+    {
+      "slovak": "zapnúť",
+      "english": "to switch on",
+      "examples": [
+        "Môžeš zapnúť svetlo?",
+        "Ráno som zapol kávovar.",
+        "Nezabudni zapnúť kúrenie.",
+        "Zapnem televízor po večeri.",
+        "Skús zariadenie zapnúť ešte raz."
+      ]
+    },
+    {
+      "slovak": "vypnúť",
+      "english": "to switch off",
+      "examples": [
+        "Prosím, vypni svetlo v kuchyni.",
+        "Pred odchodom vždy vypnem počítač.",
+        "Musíme vypnúť rúru.",
+        "Vypni telefón na stretnutí.",
+        "Nezabudol si vypnúť vodu?"
+      ]
+    },
+    {
+      "slovak": "otvoriť",
+      "english": "to open",
+      "examples": [
+        "Môžeš otvoriť okno?",
+        "Otvoril som dvere kľúčom.",
+        "Obchod otvoria o deviatej.",
+        "Neviem otvoriť túto fľašu.",
+        "Ráno vždy otvorím okno dokorán."
+      ]
+    },
+    {
+      "slovak": "zatvoriť",
+      "english": "to close",
+      "examples": [
+        "Prosím, zatvor dvere.",
+        "Pred dažďom sme zatvorili okná.",
+        "Kedy zatvoria obchod?",
+        "Nezabudni zatvoriť auto.",
+        "Večer vždy zatváram balkón."
+      ]
+    },
+    {
+      "slovak": "tlačiť",
+      "english": "to push / print",
+      "examples": [
+        "Netlač tie dvere, treba ťahať.",
+        "Kočík sa po schodoch ťažko tlačí.",
+        "Nemusíš tak silno tlačiť.",
+        "Tlačil som kufor cez stanicu.",
+        "Pri dverách bolo napísané tlačiť."
+      ]
+    },
+    {
+      "slovak": "ťahať",
+      "english": "to pull",
+      "examples": [
+        "Tieto dvere treba ťahať.",
+        "Ťahal som ťažký kufor po stanici.",
+        "Pes ma ťahal dopredu.",
+        "Netreba to tak silno ťahať.",
+        "Za vozík sa má ťahať opatrne."
+      ]
+    },
+    {
+      "slovak": "padnúť",
+      "english": "to fall",
+      "examples": [
+        "Dávaj pozor, môžeš padnúť.",
+        "Na schodoch som skoro padol.",
+        "List zo stola padol na zem.",
+        "Keď je mokro, ľahko sa padá.",
+        "Mobil mi padol z vrecka."
+      ]
+    },
+    {
+      "slovak": "zdvihnúť",
+      "english": "to lift",
+      "examples": [
+        "Môžeš zdvihnúť tú tašku?",
+        "Ráno som zdvihol telefón až na tretíkrát.",
+        "Zdvíhali sme ťažkú krabicu spolu.",
+        "Treba zdvihnúť roletu.",
+        "Zdvihol som zo zeme kľúč."
+      ]
+    },
+    {
+      "slovak": "niesť",
+      "english": "to carry",
+      "examples": [
+        "Nemôžem niesť obe tašky sám.",
+        "Pomôž mi niesť kufor.",
+        "Niesol som nákup domov pešo.",
+        "Dieťa nieslo malý darček.",
+        "Na výlet si nesiem vodu."
+      ]
+    },
+    {
+      "slovak": "stratiť",
+      "english": "to lose",
+      "examples": [
+        "Nechcem stratiť peňaženku.",
+        "Na stanici som stratil lístok.",
+        "Stratil som adresu hotela.",
+        "Ľahko stratím trpezlivosť v rade.",
+        "Včera som stratil jeden kľúč."
+      ]
+    },
+    {
+      "slovak": "nájsť",
+      "english": "to find",
+      "examples": [
+        "Nemôžem nájsť mobil.",
+        "Našiel som dobrú reštauráciu.",
+        "Pomohol mi nájsť správnu ulicu.",
+        "Kde si našiel tú knihu?",
+        "Dúfam, že nájdem lacný hotel."
+      ]
+    },
+    {
+      "slovak": "ukázať",
+      "english": "to show",
+      "examples": [
+        "Môžeš mi ukázať cestu?",
+        "Ukáž mi, kde je stanica.",
+        "Predavačka mi ukázala inú veľkosť.",
+        "Na mape mi ukázal správny smer.",
+        "Chcem ti ukázať nové topánky."
+      ]
+    },
+    {
+      "slovak": "vybrať",
+      "english": "to choose",
+      "examples": [
+        "Neviem si vybrať medzi dvoma kabátmi.",
+        "V bankomate som si vybral hotovosť.",
+        "Vybrali sme si stôl pri okne.",
+        "Môžeš vybrať hudbu do auta.",
+        "Na obed som si vybral polievku."
+      ]
+    },
+    {
+      "slovak": "porovnať",
+      "english": "to compare",
+      "examples": [
+        "Chcem porovnať ceny v dvoch obchodoch.",
+        "Porovnaj tieto dve košele.",
+        "Pred kúpou si vždy porovnám ponuky.",
+        "Je dobré porovnať hotel a apartmán.",
+        "Porovnali sme vlak a autobus."
+      ]
+    },
+    {
+      "slovak": "súhlasiť",
+      "english": "to agree",
+      "examples": [
+        "S týmto plánom súhlasím.",
+        "Nemusíš vždy so mnou súhlasiť.",
+        "Rodičia súhlasili s naším výletom.",
+        "Súhlasíš s tým termínom?",
+        "Po dlhej debate všetci súhlasili."
+      ]
+    },
+    {
+      "slovak": "nesúhlasiť",
+      "english": "to disagree",
+      "examples": [
+        "S tou cenou nesúhlasím.",
+        "Nemusíme vo všetkom nesúhlasiť.",
+        "Kolega nesúhlasil s návrhom.",
+        "Prečo s tým nesúhlasíš?",
+        "Rodičia najprv nesúhlasili, potom áno."
+      ]
+    },
+    {
+      "slovak": "navrhnúť",
+      "english": "to suggest",
+      "examples": [
+        "Môžem navrhnúť inú reštauráciu?",
+        "Kolega navrhol kratšie stretnutie.",
+        "Navrhujem ísť pešo.",
+        "Ona navrhla výlet na víkend.",
+        "Skús navrhnúť jednoduchšie riešenie."
+      ]
+    },
+    {
+      "slovak": "plán",
+      "english": "plan",
+      "examples": [
+        "Na víkend máme jasný plán.",
+        "Môj plán sa trochu zmenil.",
+        "Bez plánu sa mi zle cestuje.",
+        "To je dobrý plán.",
+        "Ráno si vždy robím plán dňa."
+      ]
+    },
+    {
+      "slovak": "zmena",
+      "english": "change",
+      "examples": [
+        "Tá zmena prišla veľmi rýchlo.",
+        "Potrebujem malú zmenu v živote.",
+        "V práci bude od budúceho týždňa zmena.",
+        "Zmena počasia ma unavila.",
+        "Po sťahovaní to bola veľká zmena."
+      ]
+    },
+    {
+      "slovak": "možnosť",
+      "english": "option",
+      "examples": [
+        "Máme ešte jednu možnosť.",
+        "To nie je zlá možnosť.",
+        "Prvá možnosť sa mi páči viac.",
+        "Aká je ďalšia možnosť?",
+        "Bez auta je cesta stále možnosť."
+      ]
+    },
+    {
+      "slovak": "dôvod",
+      "english": "reason",
+      "examples": [
+        "Na to mám dobrý dôvod.",
+        "Nevidím dôvod na stres.",
+        "Povedal mi skutočný dôvod.",
+        "Aký je dôvod tej zmeny?",
+        "Bez dôvodu sa nehneval."
+      ]
+    },
+    {
+      "slovak": "problém",
+      "english": "problem",
+      "examples": [
+        "Máme malý problém s autom.",
+        "To nie je veľký problém.",
+        "Ak bude problém, zavolaj mi.",
+        "Problém sme vyriešili rýchlo.",
+        "Najväčší problém bol čas."
+      ]
+    },
+    {
+      "slovak": "riešenie",
+      "english": "solution",
+      "examples": [
+        "Našli sme jednoduché riešenie.",
+        "Toto riešenie sa mi páči.",
+        "Každý problém má riešenie.",
+        "Potrebujeme rýchle riešenie.",
+        "Jeho riešenie bolo praktické."
+      ]
+    },
+    {
+      "slovak": "úspech",
+      "english": "success",
+      "examples": [
+        "Bol to veľký úspech.",
+        "Po skúške mal pocit úspechu.",
+        "Tvrdá práca priniesla úspech.",
+        "Prajem ti veľa úspechov.",
+        "Ten projekt bol veľký úspech."
+      ]
+    },
+    {
+      "slovak": "chyba",
+      "english": "mistake",
+      "examples": [
+        "Urobil som malú chybu.",
+        "Tá chyba sa dá opraviť.",
+        "Našiel som chybu v adrese.",
+        "Každý občas spraví chybu.",
+        "Kvôli jednej chybe sme meškali."
+      ]
+    },
+    {
+      "slovak": "opatrný",
+      "english": "careful",
+      "examples": [
+        "Buď opatrný na schodoch.",
+        "Na ľade treba byť opatrný.",
+        "Pri noži som vždy opatrný.",
+        "Za volantom musíš byť opatrný.",
+        "S horúcou rúrou buď opatrný."
+      ]
+    },
+    {
+      "slovak": "nebezpečný",
+      "english": "dangerous",
+      "examples": [
+        "Tá cesta je v zime nebezpečná.",
+        "Je nebezpečné chodiť tam v noci.",
+        "Rozbitý schod je nebezpečný.",
+        "Pre deti môže byť nôž nebezpečný.",
+        "V silnom vetre je bicykel nebezpečný."
+      ]
+    },
+    {
+      "slovak": "bezpečný",
+      "english": "safe",
+      "examples": [
+        "Táto štvrť je cez deň bezpečná.",
+        "V aute sa cítim bezpečne.",
+        "Je to bezpečné miesto pre deti.",
+        "Chcem sa v hoteli cítiť bezpečne.",
+        "Prechod cez cestu tu nie je veľmi bezpečný."
+      ]
+    },
+    {
+      "slovak": "tichý",
+      "english": "quiet",
+      "examples": [
+        "Ráno je náš byt veľmi tichý.",
+        "Hľadám tiché miesto na prácu.",
+        "Ten sused je naozaj tichý.",
+        "V lese bolo úplne ticho.",
+        "Po deviatej býva ulica tichá."
+      ]
+    },
+    {
+      "slovak": "hlučný",
+      "english": "noisy",
+      "examples": [
+        "Tá reštaurácia je príliš hlučná.",
+        "Vlak bol dnes hlučný.",
+        "Nemám rád hlučných susedov.",
+        "Na trhu býva vždy hlučno.",
+        "Tá práčka je veľmi hlučná."
+      ]
+    },
+    {
+      "slovak": "rýchly",
+      "english": "fast",
+      "examples": [
+        "Dnes som mal rýchly obed.",
+        "Ten vlak je veľmi rýchly.",
+        "Potrebujem rýchlu odpoveď.",
+        "Bolo to rýchle rozhodnutie.",
+        "Na diaľnici jazdí príliš rýchlo."
+      ]
+    },
+    {
+      "slovak": "pomalý",
+      "english": "slow",
+      "examples": [
+        "Internet je dnes pomalý.",
+        "Výťah je veľmi pomalý.",
+        "Musíš hovoriť pomalšie.",
+        "Ráno mám pomalý štart.",
+        "Tá obsluha bola trochu pomalá."
+      ]
+    },
+    {
+      "slovak": "silný",
+      "english": "strong",
+      "examples": [
+        "Dnes fúka silný vietor.",
+        "Káva bola príliš silná.",
+        "Potrebujem silný dáždnik.",
+        "Má veľmi silný hlas.",
+        "Po tréningu sa cítim silný."
+      ]
+    },
+    {
+      "slovak": "slabý",
+      "english": "weak",
+      "examples": [
+        "Čaj je dnes príliš slabý.",
+        "Mobil má slabú batériu.",
+        "Po chorobe som bol slabý.",
+        "To svetlo je dosť slabé.",
+        "Signál je tu veľmi slabý."
+      ]
+    },
+    {
+      "slovak": "ťažký",
+      "english": "heavy / difficult",
+      "examples": [
+        "Ten kufor je veľmi ťažký.",
+        "Dnes som mal ťažký deň.",
+        "Tá úloha bola ťažká.",
+        "Kabát je na jar príliš ťažký.",
+        "Na chrbát nechcem niesť ťažký batoh."
+      ]
+    },
+    {
+      "slovak": "ľahký",
+      "english": "light / easy",
+      "examples": [
+        "Na leto chcem ľahký kabát.",
+        "To cvičenie bolo celkom ľahké.",
+        "Na cestu si beriem ľahký batoh.",
+        "Ľahká večera mi vyhovuje viac.",
+        "Tento text je ľahký na čítanie."
+      ]
+    },
+    {
+      "slovak": "hlboký",
+      "english": "deep",
+      "examples": [
+        "To jazero je veľmi hlboké.",
+        "Nadýchni sa a urob hlboký nádych.",
+        "V lese bol hlboký tieň.",
+        "Má hlboký hlas.",
+        "Po daždi vznikla hlboká kaluž."
+      ]
+    },
+    {
+      "slovak": "nízky",
+      "english": "low",
+      "examples": [
+        "Stôl je trochu nízky.",
+        "Dnes bola veľmi nízka teplota.",
+        "Má nízky hlas.",
+        "Ten prah je nízky, ale ostrý.",
+        "Ponúkol mi nízku cenu."
+      ]
+    },
+    {
+      "slovak": "vysoký",
+      "english": "high / tall",
+      "examples": [
+        "Ten dom je veľmi vysoký.",
+        "Ceny v centre sú vysoké.",
+        "V lete bývajú vysoké teploty.",
+        "Má vysoký strop v izbe.",
+        "Na polici je to príliš vysoko."
+      ]
+    },
+    {
+      "slovak": "široký",
+      "english": "wide",
+      "examples": [
+        "Tá ulica je veľmi široká.",
+        "Potrebujem širší opasok.",
+        "Má široký úsmev.",
+        "Tá rieka je na tomto mieste široká.",
+        "Kúpil som si široký šál."
+      ]
+    },
+    {
+      "slovak": "úzky",
+      "english": "narrow",
+      "examples": [
+        "Tá chodba je príliš úzka.",
+        "Máme úzky stôl do kuchyne.",
+        "Táto sukňa je v páse úzka.",
+        "Cesta medzi domami je úzka.",
+        "Pre auto je to príliš úzke miesto."
+      ]
+    },
+    {
+      "slovak": "rovný",
+      "english": "straight / even",
+      "examples": [
+        "Choď stále rovno.",
+        "Ten obraz visí krivo, nie rovno.",
+        "Stôl stojí na rovnej podlahe.",
+        "Snaž sa sedieť rovno.",
+        "Tá cesta je dlhá, ale rovná."
+      ]
+    },
+    {
+      "slovak": "okrúhly",
+      "english": "round",
+      "examples": [
+        "Stôl v kuchyni je okrúhly.",
+        "Kúpili sme okrúhly koláč.",
+        "Zrkadlo v kúpeľni je okrúhle.",
+        "Má okrúhly stôl na balkóne.",
+        "Ten tanier je úplne okrúhly."
+      ]
+    },
+    {
+      "slovak": "prázdny",
+      "english": "empty",
+      "examples": [
+        "Pohár je už prázdny.",
+        "Po odchode hostí bol byt prázdny.",
+        "Chladnička je skoro prázdna.",
+        "Autobus bol ráno takmer prázdny.",
+        "Nemám rád prázdny žalúdok."
+      ]
+    },
+    {
+      "slovak": "plný",
+      "english": "full",
+      "examples": [
+        "Autobus bol úplne plný.",
+        "Fľaša je ešte plná.",
+        "Môj deň je dnes plný práce.",
+        "Parkovisko bolo plné áut.",
+        "Taška je plná jedla."
+      ]
+    },
+    {
+      "slovak": "skoro",
+      "english": "early",
+      "examples": [
+        "Dnes som prišiel skoro.",
+        "Chodím spať dosť skoro.",
+        "Skoro ráno býva ticho.",
+        "Na stanicu sme dorazili skoro.",
+        "Ak vstaneš skoro, všetko stihneš."
+      ]
+    },
+    {
+      "slovak": "neskoro",
+      "english": "late",
+      "examples": [
+        "Prišiel som domov neskoro.",
+        "Nechcem jesť večeru neskoro.",
+        "Na odpoveď bolo už neskoro.",
+        "Včera som si ľahol neskoro.",
+        "Ak vyrazíme neskoro, budeme meškať."
+      ]
+    },
+    {
+      "slovak": "zrazu",
+      "english": "suddenly",
+      "examples": [
+        "Zrazu začalo pršať.",
+        "Bolo ticho a zrazu zazvonil telefón.",
+        "Zrazu som si spomenul na kľúče.",
+        "Pri chôdzi zrazu spadol list.",
+        "Všetko sa zrazu zmenilo."
+      ]
+    },
+    {
+      "slovak": "hnedý",
+      "english": "brown",
+      "examples": [
+        "Kúpil som si hnedý opasok.",
+        "Ten pes je hnedý.",
+        "Na stole leží hnedá taška.",
+        "Do obývačky sa hodí hnedý stôl.",
+        "Má hnedé topánky do práce."
+      ]
+    },
+    {
+      "slovak": "ružový",
+      "english": "pink",
+      "examples": [
+        "Má na sebe ružový sveter.",
+        "Dieťa si vybralo ružovú čiapku.",
+        "Na stole bol ružový hrnček.",
+        "Nemám rád ružové topánky.",
+        "Ten obal je svetloružový."
+      ]
+    },
+    {
+      "slovak": "oranžový",
+      "english": "orange",
+      "examples": [
+        "Kúpil som si oranžový šál.",
+        "V košíku bol oranžový pomaranč.",
+        "Na semafore svietilo oranžové svetlo.",
+        "Ten západ slnka bol oranžový.",
+        "Dieťa má oranžový batoh."
+      ]
+    },
+    {
+      "slovak": "šedý",
+      "english": "grey",
+      "examples": [
+        "Dnes je vonku šedá obloha.",
+        "Mám šedý kabát na jeseň.",
+        "Šedá mačka spala na stoličke.",
+        "Vybral som si šedé nohavice.",
+        "Tá stena je príliš šedá."
+      ]
+    },
+    {
+      "slovak": "tmavý",
+      "english": "dark",
+      "examples": [
+        "Večer je v lese tmavo.",
+        "Kúpil som si tmavý sveter.",
+        "Mám rád tmavú kávu bez cukru.",
+        "Tá izba je trochu tmavá.",
+        "Na zimu nosím tmavý kabát."
+      ]
+    },
+    {
+      "slovak": "svetlý",
+      "english": "light",
+      "examples": [
+        "Tá izba je pekne svetlá.",
+        "Na leto mám rád svetlé farby.",
+        "Kúpil som si svetlý sveter.",
+        "Dnes je vonku ešte svetlo.",
+        "V hoteli bola svetlá kúpeľňa."
+      ]
+    },
+    {
+      "slovak": "čerstvý",
+      "english": "fresh",
+      "examples": [
+        "Kúpil som čerstvý chlieb.",
+        "Ráno mám rád čerstvý vzduch.",
+        "Na trhu predávajú čerstvé jahody.",
+        "Po daždi bol vzduch čerstvý.",
+        "Do šalátu dávam čerstvú uhorku."
+      ]
+    },
+    {
+      "slovak": "slaný",
+      "english": "salty",
+      "examples": [
+        "Polievka je trochu slaná.",
+        "Nemám rád príliš slané jedlo.",
+        "Tie chipsy boli veľmi slané.",
+        "Do šalátu som dal slaný syr.",
+        "Skús menej slanú omáčku."
+      ]
+    },
+    {
+      "slovak": "kyslý",
+      "english": "sour",
+      "examples": [
+        "Tento citrón je veľmi kyslý.",
+        "Polievka bola trochu kyslá.",
+        "Nemám rád príliš kyslé jablká.",
+        "Tá omáčka je zvláštne kyslá.",
+        "Kúpil som si kyslé uhorky."
+      ]
+    },
+    {
+      "slovak": "horký",
+      "english": "bitter",
+      "examples": [
+        "Tá káva je trochu horká.",
+        "Nemám rád horkú čokoládu.",
+        "Liek mal horkú chuť.",
+        "Pivo bolo pre mňa príliš horké.",
+        "Grejp býva často horký."
+      ]
+    },
+    {
+      "slovak": "sladký",
+      "english": "sweet",
+      "examples": [
+        "Koláč bol veľmi sladký.",
+        "Mám rád sladké raňajky.",
+        "Tento čaj je príliš sladký.",
+        "Kúpili sme sladké jahody.",
+        "Nemám chuť na nič sladké."
+      ]
+    },
+    {
+      "slovak": "pikantný",
+      "english": "spicy",
+      "examples": [
+        "Objednal som si pikantnú polievku.",
+        "Nemám rád príliš pikantné jedlo.",
+        "Tá omáčka je dosť pikantná.",
+        "Pikantné jedlá jem len občas.",
+        "V reštaurácii mali pikantné kurča."
+      ]
+    },
+    {
+      "slovak": "múka",
+      "english": "flour",
+      "examples": [
+        "Na koláč potrebujem múku.",
+        "Múka je v hornej skrinke.",
+        "Kúp ešte jedno balenie múky.",
+        "Bez múky cesto neurobíš.",
+        "Na stole bola rozsypaná múka."
+      ]
+    },
+    {
+      "slovak": "cukor",
+      "english": "sugar",
+      "examples": [
+        "Do kávy si dávam málo cukru.",
+        "Cukor je v modrej dóze.",
+        "Na koláč potrebujeme cukor.",
+        "Snažím sa jesť menej cukru.",
+        "Cukor sa minul, musím kúpiť nový."
+      ]
+    },
+    {
+      "slovak": "soľ",
+      "english": "salt",
+      "examples": [
+        "Do polievky som pridal trochu soli.",
+        "Soľ je na stole.",
+        "Bez soli je jedlo mdlé.",
+        "Dávaj menej soli do šalátu.",
+        "V obchode sme zabudli kúpiť soľ."
+      ]
+    },
+    {
+      "slovak": "olej",
+      "english": "oil",
+      "examples": [
+        "Na panvicu daj trochu oleja.",
+        "Olej mám pri sporáku.",
+        "Do šalátu používam olivový olej.",
+        "Fľaša oleja bola skoro prázdna.",
+        "Na vyprážanie treba olej."
+      ]
+    },
+    {
+      "slovak": "maslo",
+      "english": "butter",
+      "examples": [
+        "Chlieb si natriem maslom.",
+        "Maslo je v chladničke.",
+        "Kúp prosím čerstvé maslo.",
+        "Do koláča ide aj maslo.",
+        "Maslo sa na teple rýchlo topí."
+      ]
+    },
+    {
+      "slovak": "vajce",
+      "english": "egg",
+      "examples": [
+        "Na raňajky si dám vajce.",
+        "Do cesta treba jedno vajce.",
+        "V chladničke ostalo posledné vajce.",
+        "Dnes som si uvaril vajce natvrdo.",
+        "Vajce sa mi rozbilo na podlahe."
+      ]
+    },
+    {
+      "slovak": "ryža",
+      "english": "rice",
+      "examples": [
+        "K mäsu si dám ryžu.",
+        "Ryža sa už varí v hrnci.",
+        "Nemám doma žiadnu ryžu.",
+        "Na obed sme mali ryžu so zeleninou.",
+        "Ryžu treba pred varením opláchnuť."
+      ]
+    },
+    {
+      "slovak": "cestoviny",
+      "english": "pasta",
+      "examples": [
+        "Deti majú rady cestoviny.",
+        "Na večeru budú cestoviny so syrom.",
+        "Cestoviny sa varia len pár minút.",
+        "Kúpil som celozrnné cestoviny.",
+        "V skrinke máme ešte jedny cestoviny."
+      ]
+    },
+    {
+      "slovak": "zemiaky",
+      "english": "potatoes",
+      "examples": [
+        "Na obed uvarím zemiaky.",
+        "Zemiaky máme v pivnici.",
+        "K mäsu sa hodia pečené zemiaky.",
+        "Dnes som kúpil nové zemiaky.",
+        "Bez zemiakov by obed nebol kompletný."
+      ]
+    },
+    {
+      "slovak": "paradajka",
+      "english": "tomato",
+      "examples": [
+        "Do šalátu dám paradajku.",
+        "Tá paradajka je veľmi čerstvá.",
+        "Kúpil som kilo paradajok.",
+        "Paradajka sa hodí k syru.",
+        "Na stole ležala jedna paradajka."
+      ]
+    },
+    {
+      "slovak": "uhorka",
+      "english": "cucumber",
+      "examples": [
+        "V lete jem často uhorku.",
+        "Do šalátu potrebujem uhorku.",
+        "Tá uhorka je pekne chrumkavá.",
+        "Nakrájaj prosím uhorku na kolieska.",
+        "V chladničke je ešte jedna uhorka."
+      ]
+    },
+    {
+      "slovak": "cibuľa",
+      "english": "onion",
+      "examples": [
+        "Cibuľa ma pri krájaní rozplače.",
+        "Do polievky ide aj cibuľa.",
+        "Na panvici sa už smaží cibuľa.",
+        "Kúp dve cibule do zásoby.",
+        "Bez cibule jedlo nemá takú chuť."
+      ]
+    },
+    {
+      "slovak": "cesnak",
+      "english": "garlic",
+      "examples": [
+        "Do omáčky dám trochu cesnaku.",
+        "Cesnak je zdravý, ale silno vonia.",
+        "Kúpil som čerstvý cesnak.",
+        "Bez cesnaku si tú polievku neviem predstaviť.",
+        "Na stole zostal jeden strúčik cesnaku."
+      ]
+    },
+    {
+      "slovak": "mrkva",
+      "english": "carrot",
+      "examples": [
+        "Do polievky krájam mrkvu.",
+        "Mrkva je dobrá aj surová.",
+        "Kúp kilo mrkvy na šalát.",
+        "Dieťa si zobralo mrkvu ako desiatu.",
+        "V chladničke máme ešte dve mrkvy."
+      ]
+    },
+    {
+      "slovak": "jablko",
+      "english": "apple",
+      "examples": [
+        "Každé ráno si dám jablko.",
+        "To jablko je sladké a šťavnaté.",
+        "V taške mám jedno jablko.",
+        "Na koláč potrebujeme jablká.",
+        "Jablko som zjedol cestou do práce."
+      ]
+    },
+    {
+      "slovak": "banán",
+      "english": "banana",
+      "examples": [
+        "Na raňajky si dám banán.",
+        "Banán je rýchla desiata.",
+        "Kúpil som si dva banány.",
+        "Do smoothie dávam banán a mlieko.",
+        "Ten banán je už veľmi zrelý."
+      ]
+    },
+    {
+      "slovak": "pomaranč",
+      "english": "orange (fruit)",
+      "examples": [
+        "Ráno som olúpal pomaranč.",
+        "Pomaranč vonia veľmi pekne.",
+        "Do džúsu používam čerstvé pomaranče.",
+        "V obchode boli sladké pomaranče.",
+        "Na stole zostal jeden pomaranč."
+      ]
+    },
+    {
+      "slovak": "hrozno",
+      "english": "grapes",
+      "examples": [
+        "Večer si dám trochu hrozna.",
+        "To hrozno je veľmi sladké.",
+        "Kúp prosím biele hrozno.",
+        "V chladničke máme ešte hrozno.",
+        "Dieťa jedlo hrozno po jednom."
+      ]
+    },
+    {
+      "slovak": "jahoda",
+      "english": "strawberry",
+      "examples": [
+        "V lete milujem čerstvé jahody.",
+        "Tá jahoda je veľmi sladká.",
+        "Na koláč som kúpil jahody.",
+        "Jahoda sa hodí do jogurtu.",
+        "Na trhu predávali veľké jahody."
+      ]
+    },
+    {
+      "slovak": "koláč",
+      "english": "cake",
+      "examples": [
+        "Na stole je domáci koláč.",
+        "K babke chodíme na koláč a kávu.",
+        "Ten koláč bol ešte teplý.",
+        "Na oslavu upečiem jablkový koláč.",
+        "Po obede sme si dali kúsok koláča."
+      ]
+    },
+    {
+      "slovak": "sušienka",
+      "english": "cookie",
+      "examples": [
+        "K čaju si dám jednu sušienku.",
+        "Dieťa si vzalo sušienku do školy.",
+        "Tá sušienka bola veľmi sladká.",
+        "V krabici ostala posledná sušienka.",
+        "Poobede mám chuť na sušienku."
+      ]
+    },
+    {
+      "slovak": "džús",
+      "english": "juice",
+      "examples": [
+        "Na raňajky si dám pohár džúsu.",
+        "Pomarančový džús mám najradšej.",
+        "V chladničke je ešte trochu džúsu.",
+        "Deti si objednali jablkový džús.",
+        "Džús bol príliš sladký."
+      ]
+    },
+    {
+      "slovak": "minerálka",
+      "english": "mineral water",
+      "examples": [
+        "K obedu pijem minerálku.",
+        "Kúp cestou dve minerálky.",
+        "Studená minerálka mi padla vhod.",
+        "V aute mám malú minerálku.",
+        "Po športe som vypil celú minerálku."
+      ]
+    },
+    {
+      "slovak": "raňajkovať",
+      "english": "to have breakfast",
+      "examples": [
+        "Ráno rád raňajkujem doma.",
+        "Cez týždeň raňajkujem rýchlo.",
+        "Deti už raňajkujú v kuchyni.",
+        "V hoteli sme raňajkovali do deviatej.",
+        "Nechcem raňajkovať v strese."
+      ]
+    },
+    {
+      "slovak": "obedovať",
+      "english": "to have lunch",
+      "examples": [
+        "Obedujem zvyčajne o jednej.",
+        "Dnes budem obedovať s kolegom.",
+        "V centre sa dá dobre obedovať.",
+        "Počas práce obedujeme v jedálni.",
+        "Nechcem obedovať tak neskoro."
+      ]
+    },
+    {
+      "slovak": "večerať",
+      "english": "to have dinner",
+      "examples": [
+        "Večeriame spolu o siedmej.",
+        "Dnes budeme večerať doma.",
+        "V piatok radi večeriame vonku.",
+        "Nechcem večerať ťažké jedlo.",
+        "Po práci budeme večerať neskôr."
+      ]
+    },
+    {
+      "slovak": "chutnať",
+      "english": "to taste / suit",
+      "examples": [
+        "Tá polievka mi veľmi chutí.",
+        "Dúfam, že ti bude chutiť koláč.",
+        "Dnes mi nechutí káva bez cukru.",
+        "Deťom chutia cestoviny najviac.",
+        "Ak ti to nechutí, objednaj si niečo iné."
+      ]
+    },
+    {
+      "slovak": "platiť",
+      "english": "to pay",
+      "examples": [
+        "Môžem platiť kartou?",
+        "Za hotel sme platili vopred.",
+        "Nechcem platiť v hotovosti.",
+        "V tejto reštaurácii sa platí pri pokladni.",
+        "Za parkovanie treba platiť."
+      ]
+    },
+    {
+      "slovak": "hotovosť",
+      "english": "cash",
+      "examples": [
+        "Nemám pri sebe hotovosť.",
+        "Platím radšej kartou než hotovosťou.",
+        "V malej kaviarni berú len hotovosť.",
+        "Vybral som si hotovosť z bankomatu.",
+        "Na trhu sa často platí v hotovosti."
+      ]
+    },
+    {
+      "slovak": "karta",
+      "english": "card",
+      "examples": [
+        "Platím kartou pri pokladni.",
+        "Banková karta mi zostala doma.",
+        "Máš pri sebe kartu?",
+        "Bez karty si nevyberiem peniaze.",
+        "Tá karta už nefunguje."
+      ]
+    },
+    {
+      "slovak": "pokladňa",
+      "english": "cash desk",
+      "examples": [
+        "Pri pokladni bolo rušno.",
+        "Zaplatím pri pokladni.",
+        "Pokladňa je hneď pri východe.",
+        "Pred pokladňou stál dlhý rad.",
+        "Na pokladni prijímajú aj kartu."
+      ]
+    },
+    {
+      "slovak": "zľava",
+      "english": "discount",
+      "examples": [
+        "Dnes je na topánky veľká zľava.",
+        "So zľavou to bolo lacnejšie.",
+        "Čakala som na väčšiu zľavu.",
+        "Tá zľava platí len dnes.",
+        "Využil som zľavu na kabát."
+      ]
+    },
+    {
+      "slovak": "výpredaj",
+      "english": "sale",
+      "examples": [
+        "V obchode začal veľký výpredaj.",
+        "Po Vianociach býva výpredaj oblečenia.",
+        "Na výpredaji som kúpil kabát.",
+        "Výpredaj trvá do konca týždňa.",
+        "Ľudia prišli skoro kvôli výpredaju."
+      ]
+    },
+    {
+      "slovak": "otváracie hodiny",
+      "english": "opening hours",
+      "examples": [
+        "Skontroluj si otváracie hodiny obchodu.",
+        "Otváracie hodiny sú na dverách.",
+        "V nedeľu majú kratšie otváracie hodiny.",
+        "Pred cestou som si pozrel otváracie hodiny.",
+        "Počas sviatkov sa otváracie hodiny menia."
+      ]
+    },
+    {
+      "slovak": "vymeniť",
+      "english": "to exchange",
+      "examples": [
+        "Chcem vymeniť veľké tričko za menšie.",
+        "Môžeme vymeniť stôl pri okne?",
+        "V obchode mi to bez problému vymenili.",
+        "Potrebujem vymeniť eurá za koruny.",
+        "Skúsim vymeniť tento chybný kus."
+      ]
+    },
+    {
+      "slovak": "vrátiť",
+      "english": "to return (an item)",
+      "examples": [
+        "Chcem vrátiť tieto topánky.",
+        "V obchode som vrátil nepoužitý tovar.",
+        "Môžem to vrátiť bez účtenky?",
+        "Rozhodol som sa vrátiť ten kabát.",
+        "Ak ti to nesedí, môžeš to vrátiť."
+      ]
+    },
+    {
+      "slovak": "reklamácia",
+      "english": "complaint / return claim",
+      "examples": [
+        "V obchode som podal reklamáciu.",
+        "Reklamácia trvala dva týždne.",
+        "Na reklamáciu potrebujem účtenku.",
+        "Predavačka prijala moju reklamáciu.",
+        "Reklamácia bola nakoniec úspešná."
+      ]
+    },
+    {
+      "slovak": "účtenka",
+      "english": "receipt",
+      "examples": [
+        "Účtenku si nechám v taške.",
+        "Bez účtenky to nevymenia.",
+        "Predavačka mi dala účtenku.",
+        "Stratil som účtenku z obchodu.",
+        "Skontroloval som cenu na účtenke."
+      ]
+    },
+    {
+      "slovak": "zľavnený",
+      "english": "discounted",
+      "examples": [
+        "Kúpil som zľavnený kabát.",
+        "Tento tovar je dnes zľavnený.",
+        "Zľavnené tričko stálo polovicu ceny.",
+        "Najradšej kupujem zľavnené veci.",
+        "V regáli boli zľavnené topánky."
+      ]
+    },
+    {
+      "slovak": "cena",
+      "english": "price",
+      "examples": [
+        "Cena hotela je celkom dobrá.",
+        "Tá cena je pre mňa vysoká.",
+        "Pýtal som sa na cenu obeda.",
+        "Cena benzínu opäť stúpla.",
+        "Porovnali sme cenu v dvoch obchodoch."
+      ]
+    },
+    {
+      "slovak": "móda",
+      "english": "fashion",
+      "examples": [
+        "Móda sa rýchlo mení.",
+        "O módu sa veľmi nezaujímam.",
+        "Moja sestra má rada módu.",
+        "V centre je obchod s módou.",
+        "Pohodlie je pre mňa dôležitejšie ako móda."
+      ]
+    },
+    {
+      "slovak": "šaty",
+      "english": "dress / clothes",
+      "examples": [
+        "Na oslavu si oblečie krásne šaty.",
+        "Tieto šaty sú príliš dlhé.",
+        "V obchode mala pekné letné šaty.",
+        "Šaty si skúsila v kabínke.",
+        "Na svadbu hľadá nové šaty."
+      ]
+    },
+    {
+      "slovak": "sukňa",
+      "english": "skirt",
+      "examples": [
+        "Tá sukňa sa mi páči.",
+        "Do práce si obliekla čiernu sukňu.",
+        "Sukňa je jej trochu voľná.",
+        "V obchode mali lacnú sukňu.",
+        "K tej blúzke sa hodí sukňa."
+      ]
+    },
+    {
+      "slovak": "tričko",
+      "english": "T-shirt",
+      "examples": [
+        "Na doma nosím pohodlné tričko.",
+        "Toto tričko je mi tesné.",
+        "Kúpil som si biele tričko.",
+        "Tričko som dal do práčky.",
+        "V lete nosím len ľahké tričko."
+      ]
+    },
+    {
+      "slovak": "sveter",
+      "english": "sweater",
+      "examples": [
+        "Večer si oblečiem teplý sveter.",
+        "Tento sveter je veľmi mäkký.",
+        "Sveter som nechal v kancelárii.",
+        "V zime nosím hrubý sveter.",
+        "Nový sveter mi dobre sedí."
+      ]
+    },
+    {
+      "slovak": "kabát",
+      "english": "coat",
+      "examples": [
+        "Na jeseň nosím dlhý kabát.",
+        "Tento kabát je príliš drahý.",
+        "Kabát visí pri dverách.",
+        "Do dažďa si vezmem kabát.",
+        "Kúpil som si nový zimný kabát."
+      ]
+    },
+    {
+      "slovak": "ponožky",
+      "english": "socks",
+      "examples": [
+        "Potrebujem čisté ponožky.",
+        "Tieto ponožky sú veľmi teplé.",
+        "Ponožky som dal sušiť na balkon.",
+        "V kufri mám len jedny ponožky.",
+        "K topánkam si vezmem tmavé ponožky."
+      ]
+    },
+    {
+      "slovak": "topánky",
+      "english": "shoes",
+      "examples": [
+        "Nové topánky ma trochu tlačia.",
+        "Tieto topánky sú pohodlné na chodenie.",
+        "Pred dverami si vyzuj topánky.",
+        "Kúpil som si športové topánky.",
+        "Po daždi boli topánky mokré."
+      ]
+    },
+    {
+      "slovak": "čižmy",
+      "english": "boots",
+      "examples": [
+        "V zime nosím vysoké čižmy.",
+        "Tie čižmy sú do snehu ideálne.",
+        "Kúpila si čierne čižmy.",
+        "Po výlete som si očistil čižmy.",
+        "Tieto čižmy sú trochu ťažké."
+      ]
+    },
+    {
+      "slovak": "rukavice",
+      "english": "gloves",
+      "examples": [
+        "Bez rukavíc mi je v zime zima.",
+        "Vzal som si teplé rukavice.",
+        "Rukavice som nechal v aute.",
+        "Na bicykel nosím tenké rukavice.",
+        "Mokré rukavice dám na radiátor."
+      ]
+    },
+    {
+      "slovak": "čiapka",
+      "english": "hat / cap",
+      "examples": [
+        "Keď fúka vietor, nosím čiapku.",
+        "Moja čiapka je v taške.",
+        "Kúpili sme dieťaťu novú čiapku.",
+        "V zime si vždy dávam čiapku.",
+        "Tá čiapka ti pristane."
+      ]
+    },
+    {
+      "slovak": "šál",
+      "english": "scarf",
+      "examples": [
+        "Vonku je zima, vezmi si šál.",
+        "Šál som si zabudol doma.",
+        "Má veľmi pekný vlnený šál.",
+        "K bunde sa hodí tmavý šál.",
+        "Šál visel na vešiaku."
+      ]
+    },
+    {
+      "slovak": "opasok",
+      "english": "belt",
+      "examples": [
+        "Tento opasok je mi krátky.",
+        "K nohaviciam potrebujem opasok.",
+        "Kožený opasok vyzerá elegantne.",
+        "Opasok som kúpil v zľave.",
+        "Bez opasku mi nohavice padajú."
+      ]
+    },
+    {
+      "slovak": "vrecko",
+      "english": "pocket",
+      "examples": [
+        "Vo vrecku mám kľúče.",
+        "Toto vrecko je príliš malé.",
+        "Mobil nosím v pravom vrecku.",
+        "Vo vrecku bundy som našiel lístok.",
+        "Vrecko na kabáte je roztrhnuté."
+      ]
+    },
+    {
+      "slovak": "módny",
+      "english": "fashionable",
+      "examples": [
+        "Má na sebe módny kabát.",
+        "Toto tričko je teraz veľmi módne.",
+        "Ona má rada módne doplnky.",
+        "V centre otvorili nový módny obchod.",
+        "Nie všetko módne je aj pohodlné."
+      ]
+    },
+    {
+      "slovak": "pohodlný",
+      "english": "comfortable",
+      "examples": [
+        "Tieto topánky sú veľmi pohodlné.",
+        "Na cestu si oblečiem pohodlné nohavice.",
+        "Hľadám pohodlný sveter.",
+        "Ten gauč je naozaj pohodlný.",
+        "Pohodlné oblečenie nosím doma."
+      ]
+    },
+    {
+      "slovak": "tesný",
+      "english": "tight",
+      "examples": [
+        "Tento sveter je mi tesný.",
+        "Topánky sú trochu tesné.",
+        "Nohavice boli v páse príliš tesné.",
+        "Nechcem nosiť tesné tričko.",
+        "Kabát je pekný, ale trochu tesný."
+      ]
+    },
+    {
+      "slovak": "voľný",
+      "english": "loose / free",
+      "examples": [
+        "Dnes večer som voľný.",
+        "Tieto nohavice sú mi trochu voľné.",
+        "V piatok mám voľný deň.",
+        "Máte ešte voľný stôl pre dvoch?",
+        "Po obede budem voľný."
+      ]
+    },
+    {
+      "slovak": "sedieť",
+      "english": "to fit / to sit",
+      "examples": [
+        "Tieto nohavice mi dobre sedia.",
+        "Kabát ti sedí perfektne.",
+        "Táto farba ti veľmi sedí.",
+        "Nové topánky mi ešte nesedia.",
+        "Krátky strih mi nesedí."
+      ]
+    },
+    {
+      "slovak": "vyzerať",
+      "english": "to look / appear",
+      "examples": [
+        "Dnes vyzeráš veľmi dobre.",
+        "Tá ulica vyzerá pokojne.",
+        "Po daždi to vyzerá na slnko.",
+        "Tento hotel vyzerá čisto.",
+        "Vyzerá to, že prídeme načas."
+      ]
+    },
+    {
+      "slovak": "zariadiť",
+      "english": "to arrange / furnish",
+      "examples": [
+        "Musím zariadiť nový byt.",
+        "Vieš to zariadiť do zajtra?",
+        "Kanceláriu zariadili jednoducho.",
+        "Skúsim zariadiť rezerváciu telefonicky.",
+        "Chcem zariadiť všetko ešte dnes."
+      ]
+    },
+    {
+      "slovak": "dopravný prostriedok",
+      "english": "means of transport",
+      "examples": [
+        "Najrýchlejší dopravný prostriedok do centra je električka.",
+        "Auto je pohodlný dopravný prostriedok na výlet.",
+        "V meste radšej používam verejný dopravný prostriedok.",
+        "Bicykel je lacný dopravný prostriedok.",
+        "Na dlhú cestu si vyber správny dopravný prostriedok."
+      ]
+    },
+    {
+      "slovak": "zastávka",
+      "english": "stop",
+      "examples": [
+        "Zastávka je hneď pri škole.",
+        "Čakám na teba na zastávke.",
+        "Naša zastávka je už ďalšia.",
+        "Na zastávke stálo veľa ľudí.",
+        "Autobus odišiel zo zastávky načas."
+      ]
+    },
+    {
+      "slovak": "cestovný poriadok",
+      "english": "timetable",
+      "examples": [
+        "Cestovný poriadok som si pozrel online.",
+        "Na zastávke visí nový cestovný poriadok.",
+        "Bez cestovného poriadku neviem, kedy ide autobus.",
+        "Cestovný poriadok sa cez sviatky mení.",
+        "Skontroluj cestovný poriadok ešte raz."
+      ]
+    },
+    {
+      "slovak": "nástupište",
+      "english": "platform",
+      "examples": [
+        "Nástupište číslo tri je vľavo.",
+        "Vlak už stojí na nástupišti.",
+        "Počkaj ma pri nástupišti.",
+        "Na nástupišti bolo dnes rušno.",
+        "Správne nástupište ukázali na tabuli."
+      ]
+    },
+    {
+      "slovak": "prestúpiť",
+      "english": "to change (transport)",
+      "examples": [
+        "V Trnave musíme prestúpiť na iný vlak.",
+        "Kde mám prestúpiť na autobus?",
+        "Na tejto stanici treba prestúpiť.",
+        "Nestihol som prestúpiť kvôli meškaniu.",
+        "V centre môžeš prestúpiť na električku."
+      ]
+    },
+    {
+      "slovak": "smer",
+      "english": "direction",
+      "examples": [
+        "Ukáž mi správny smer.",
+        "Išli sme zlým smerom.",
+        "Tento autobus ide opačným smerom.",
+        "Na mape som si overil smer.",
+        "Smer do centra je dobre označený."
+      ]
+    },
+    {
+      "slovak": "diaľnica",
+      "english": "highway",
+      "examples": [
+        "Na diaľnici bola hustá premávka.",
+        "Do Brna pôjdeme po diaľnici.",
+        "Na diaľnici sa auto pokazilo.",
+        "Táto diaľnica býva cez víkend plná.",
+        "Na diaľnici treba dávať pozor."
+      ]
+    },
+    {
+      "slovak": "križovatka",
+      "english": "crossroads",
+      "examples": [
+        "Na ďalšej križovatke odboč doprava.",
+        "Tá križovatka je veľmi rušná.",
+        "Na križovatke svietila červená.",
+        "Stretli sme sa pri veľkej križovatke.",
+        "Pri tejto križovatke bývajú zápchy."
+      ]
+    },
+    {
+      "slovak": "semafor",
+      "english": "traffic light",
+      "examples": [
+        "Na semafore svietila zelená.",
+        "Počkaj pri semafore.",
+        "Tento semafor je dlho červený.",
+        "Deti sa učia prechádzať pri semafore.",
+        "Auto zastalo pred semaforom."
+      ]
+    },
+    {
+      "slovak": "chodník",
+      "english": "sidewalk",
+      "examples": [
+        "Choď po chodníku, nie po ceste.",
+        "Chodník bol po daždi mokrý.",
+        "Na chodníku bolo veľa ľudí.",
+        "Tento chodník je veľmi úzky.",
+        "V zime býva chodník šmykľavý."
+      ]
+    },
+    {
+      "slovak": "cestujúci",
+      "english": "passenger",
+      "examples": [
+        "Cestujúci nastupovali do vlaku.",
+        "Jeden cestujúci sa pýtal na smer.",
+        "Vo vlaku bolo veľa cestujúcich.",
+        "Cestujúci čakali na nástupišti.",
+        "Každý cestujúci potreboval lístok."
+      ]
+    },
+    {
+      "slovak": "šoférovať",
+      "english": "to drive",
+      "examples": [
+        "Do práce zvyčajne šoférujem sám.",
+        "V noci nechcem šoférovať ďaleko.",
+        "Otec rád šoféruje na dlhé trasy.",
+        "Po daždi sa šoféruje opatrnejšie.",
+        "Keď som unavený, nešoférujem."
+      ]
+    },
+    {
+      "slovak": "parkovať",
+      "english": "to park",
+      "examples": [
+        "Tu sa nesmie parkovať.",
+        "Zaparkoval som pri obchode.",
+        "V centre je ťažké parkovať.",
+        "Kde môžeme parkovať zadarmo?",
+        "Večer parkujeme pred domom."
+      ]
+    },
+    {
+      "slovak": "tankovať",
+      "english": "to refuel",
+      "examples": [
+        "Pred cestou musíme tankovať.",
+        "Tankoval som plnú nádrž.",
+        "Na tejto pumpe rád tankujem.",
+        "Zastavili sme tankovať pri diaľnici.",
+        "Keď svieti kontrolka, treba tankovať."
+      ]
+    },
+    {
+      "slovak": "dopravná zápcha",
+      "english": "traffic jam",
+      "examples": [
+        "Ráno bola veľká dopravná zápcha.",
+        "Kvôli dopravnej zápche sme meškali.",
+        "V centre býva často dopravná zápcha.",
+        "Dopravná zápcha trvala skoro hodinu.",
+        "Ak je zápcha, idem radšej vlakom."
+      ]
+    },
+    {
+      "slovak": "meškanie",
+      "english": "delay",
+      "examples": [
+        "Vlak má desať minút meškanie.",
+        "Kvôli meškaniu som nestihol prestup.",
+        "Na tabuli ukázali ďalšie meškanie.",
+        "Nepríjemné meškanie nám pokazilo plán.",
+        "Letecká spoločnosť oznámila meškanie letu."
+      ]
+    },
+    {
+      "slovak": "nehoda",
+      "english": "accident",
+      "examples": [
+        "Na ceste bola dopravná nehoda.",
+        "Kvôli nehode stáli autá v rade.",
+        "Dúfam, že pri nehode sa nikomu nič nestalo.",
+        "Polícia prišla k nehode rýchlo.",
+        "Tá nehoda spôsobila veľké meškanie."
+      ]
+    },
+    {
+      "slovak": "príchod",
+      "english": "arrival",
+      "examples": [
+        "Náš príchod oznámime vopred.",
+        "Po príchode do hotela sme si oddýchli.",
+        "Príchod vlaku bol načas.",
+        "Po našom príchode začalo pršať.",
+        "Recepcia nás čakala pri príchode."
+      ]
+    },
+    {
+      "slovak": "odchod",
+      "english": "departure",
+      "examples": [
+        "Odchod vlaku je o 17:10.",
+        "Pred odchodom si skontroluj lístok.",
+        "Náš odchod sa trochu posunul.",
+        "Po odchode hostí bolo doma ticho.",
+        "Na tabuli svietil skorý odchod."
+      ]
+    },
+    {
+      "slovak": "pošta",
+      "english": "post office",
+      "examples": [
+        "Pošta je dnes otvorená do šiestej.",
+        "Po práci idem na poštu.",
+        "Na pošte bol dlhý rad.",
+        "Balík som si vyzdvihol na pošte.",
+        "Táto pošta je blízko nášho domu."
+      ]
+    },
+    {
+      "slovak": "balík",
+      "english": "package",
+      "examples": [
+        "Čakám balík z internetu.",
+        "Balík prišiel dnes ráno.",
+        "Kuriér nechal balík u suseda.",
+        "Ten balík je dosť ťažký.",
+        "Balík som si vyzdvihol osobne."
+      ]
+    },
+    {
+      "slovak": "list",
+      "english": "letter",
+      "examples": [
+        "Dostal som list od babky.",
+        "Ten list prišiel včera.",
+        "Na stole ležal otvorený list.",
+        "Musím ešte poslať jeden list.",
+        "V schránke ma čakal list."
+      ]
+    },
+    {
+      "slovak": "pečiatka",
+      "english": "stamp",
+      "examples": [
+        "Na úrade potrebujem pečiatku.",
+        "Na obálke bola poštová pečiatka.",
+        "Bez pečiatky dokument neplatí.",
+        "Úradník dal na papier pečiatku.",
+        "Tá pečiatka je trochu rozmazaná."
+      ]
+    },
+    {
+      "slovak": "poslať",
+      "english": "to send",
+      "examples": [
+        "Chcem poslať balík do Česka.",
+        "Pošli mi prosím adresu.",
+        "Musím poslať dôležitý e-mail.",
+        "Včera som poslal list na poštu.",
+        "Môžeš mi poslať správu večer?"
+      ]
+    },
+    {
+      "slovak": "doručiť",
+      "english": "to deliver",
+      "examples": [
+        "Kuriér doručil balík ráno.",
+        "Balík majú doručiť zajtra.",
+        "Nevedeli nám doručiť zásielku domov.",
+        "Doručili to veľmi rýchlo.",
+        "List sa nepodarilo doručiť včas."
+      ]
+    },
+    {
+      "slovak": "vyzdvihnúť",
+      "english": "to pick up",
+      "examples": [
+        "Musím si vyzdvihnúť balík na pošte.",
+        "Vyzdvihol som si nové okuliare.",
+        "Kedy si môžem vyzdvihnúť objednávku?",
+        "Balík si vyzdvihnem cestou domov.",
+        "Zajtra si chcem vyzdvihnúť dokumenty."
+      ]
+    }
+  ]
+}
