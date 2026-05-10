@@ -12,7 +12,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5180",
+        "http://localhost:5173",
         "http://localhost:5180",
         "http://192.168.100.23:5180"
     ],

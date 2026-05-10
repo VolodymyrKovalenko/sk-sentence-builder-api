@@ -1,16 +1,56 @@
 from typing import Annotated
 from fastapi import APIRouter, Depends, HTTPException, status
+import hashlib
+from datetime import datetime, timezone
+
+from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.db.session import get_db
 from app.services.auth.security import hash_password, verify_password
-from app.services.auth.jwt_token import create_access_and_refresh_token
+from app.services.auth.jwt_token import create_access_and_refresh_token, get_user_from_token, validate_token
+from app.models.refresh_token import RefreshToken
 from app.models.user import User
-from app.schemas.user import UserCreate, UserLogin, AuthResponse
+from app.schemas.user import UserCreate, UserLogin, AuthResponse, RefreshTokenIn
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
 DbSession = Annotated[Session, Depends(get_db)]
+
+
+def _hash_refresh_token(token: str) -> str:
+    return hashlib.sha256(token.encode("utf-8")).hexdigest()
+
+
+def _extract_token_expiration(token: str) -> datetime:
+    payload = validate_token(token)
+    exp = payload.get("exp")
+    if exp is None:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Token has no expiration.",
+        )
+    return datetime.fromtimestamp(int(exp), tz=timezone.utc)
+
+
+def _save_refresh_token(db: Session, user: User, refresh_token: str) -> None:
+    db.add(
+        RefreshToken(
+            user_id=user.id,
+            token_hash=_hash_refresh_token(refresh_token),
+            expires_at=_extract_token_expiration(refresh_token),
+        )
+    )
+
+
+def _get_active_refresh_token(db: Session, raw_refresh_token: str) -> RefreshToken | None:
+    token_hash = _hash_refresh_token(raw_refresh_token)
+    return db.scalar(
+        select(RefreshToken).where(
+            RefreshToken.token_hash == token_hash,
+            RefreshToken.revoked_at.is_(None),
+        )
+    )
 
 @router.post(
     "/signup/",
@@ -38,6 +78,8 @@ def signup(payload: UserCreate, db: DbSession) -> AuthResponse:
     db.refresh(user)
 
     access_token, refresh_token = create_access_and_refresh_token(user=user)
+    _save_refresh_token(db, user, refresh_token)
+    db.commit()
 
     return AuthResponse(
         access_token=access_token,
@@ -67,6 +109,8 @@ def login(payload: UserLogin, db: DbSession) -> AuthResponse:
         )
 
     access_token, refresh_token = create_access_and_refresh_token(user=user)
+    _save_refresh_token(db, user, refresh_token)
+    db.commit()
 
     return AuthResponse(
         access_token=access_token,
@@ -74,4 +118,53 @@ def login(payload: UserLogin, db: DbSession) -> AuthResponse:
         user=user,
     )
 
-#TODO logout
+
+@router.post(
+    "/refresh/",
+    response_model=AuthResponse,
+    status_code=status.HTTP_200_OK,
+)
+def refresh_token(payload: RefreshTokenIn, db: DbSession) -> AuthResponse:
+    stored_token = _get_active_refresh_token(db, payload.refresh_token)
+    if stored_token is None:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Refresh token is revoked or unknown",
+        )
+
+    if stored_token.expires_at <= datetime.now(timezone.utc):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Refresh token has expired",
+        )
+
+    user = get_user_from_token(
+        token=payload.refresh_token,
+        db=db,
+        expected_token_type="refresh",
+    )
+
+    stored_token.revoked_at = datetime.now(timezone.utc)
+
+    access_token, refresh_token = create_access_and_refresh_token(user=user)
+    _save_refresh_token(db, user, refresh_token)
+    db.commit()
+
+    return AuthResponse(
+        access_token=access_token,
+        refresh_token=refresh_token,
+        user=user,
+    )
+
+
+@router.post(
+    "/logout/",
+    status_code=status.HTTP_204_NO_CONTENT,
+)
+def logout(payload: RefreshTokenIn, db: DbSession) -> None:
+    stored_token = _get_active_refresh_token(db, payload.refresh_token)
+    if stored_token is None:
+        return
+
+    stored_token.revoked_at = datetime.now(timezone.utc)
+    db.commit()

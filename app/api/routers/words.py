@@ -21,13 +21,33 @@ DbSession = Annotated[Session, Depends(get_db)]
 CurrentUser = Annotated[User, Depends(get_current_user)]
 OptionalCurrentUser = Annotated[User | None, Depends(get_optional_current_user)]
 
+
+def _resolve_daily_limit(current_user: User | None) -> int:
+    if current_user is None:
+        return settings.ANON_DAILY_WORDS
+    if bool(getattr(current_user, "is_premium", False)):
+        return settings.PREMIUM_DAILY_WORDS
+    return settings.FREE_DAILY_WORDS
+
+
+def _get_daily_selected_word_ids(db: Session, current_user: User | None) -> set[int]:
+    ids = db.scalars(select(Word.id)).all()
+    daily_limit = _resolve_daily_limit(current_user)
+    return set(get_daily_random_ids(ids, count=daily_limit))
+
+
 @router.get("/", response_model=list[WordOut])
 def get_all_words(db: DbSession, current_user: CurrentUser) -> list[WordOut]:
     return db.scalars(select(Word)).all()
 
 
 @router.get("/{word_id}/sentences/", response_model=list[SentenceOut])
-def get_word_sentences(word_id: int, db: DbSession) -> list[SentenceOut]:
+def get_word_sentences(word_id: int, db: DbSession, current_user: OptionalCurrentUser) -> list[SentenceOut]:
+    selected_ids = _get_daily_selected_word_ids(db, current_user)
+
+    if word_id not in selected_ids:
+        raise HTTPException(status_code=403, detail="Word sentence is unavailable")
+
     word = db.get(Word, word_id)
     if word is None:
         raise HTTPException(status_code=404, detail="Word not found")
@@ -59,15 +79,5 @@ def get_word_sentences(word_id: int, db: DbSession) -> list[SentenceOut]:
 
 @router.get("/daily/", response_model=list[WordOut])
 def get_daily_words(db: DbSession, current_user: OptionalCurrentUser) -> list[WordOut]:
-    all_words = db.scalars(select(Word)).all()
-    ids = [word.id for word in all_words]
-
-    if current_user is None:
-        daily_limit = settings.ANON_DAILY_WORDS
-    elif bool(getattr(current_user, "is_premium", False)):
-        daily_limit = settings.PREMIUM_DAILY_WORDS
-    else:
-        daily_limit = settings.FREE_DAILY_WORDS
-
-    selected_ids = get_daily_random_ids(ids, count=daily_limit)
-    return [word for word in all_words if word.id in selected_ids]
+    selected_ids = _get_daily_selected_word_ids(db, current_user)
+    return db.scalars(select(Word).where(Word.id.in_(selected_ids))).all()

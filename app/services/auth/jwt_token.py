@@ -58,6 +58,41 @@ def validate_token(token: str) -> dict[str, Any]:
     return payload
 
 
+def _get_user_by_subject(user_id: Any, db: Session) -> User:
+    try:
+        user_uuid = UUID(str(user_id))
+    except (TypeError, ValueError):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid token subject",
+        )
+
+    user = db.get(User, user_uuid)
+    if user is None:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="User not found"
+        )
+    if not user.is_active:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Inactive user",
+        )
+    return user
+
+
+def get_user_from_token(token: str, db: Session, expected_token_type: str) -> User:
+    payload = validate_token(token)
+    token_type = payload.get("token_type")
+    if token_type != expected_token_type:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail=f"{expected_token_type.capitalize()} token required",
+        )
+
+    return _get_user_by_subject(payload.get("sub"), db)
+
+
 def _resolve_current_user(authorization: str | None, db: Session, required: bool) -> User | None:
     if authorization is None:
         if required:
@@ -76,38 +111,7 @@ def _resolve_current_user(authorization: str | None, db: Session, required: bool
             headers={"WWW-Authenticate": "Bearer"},
         )
 
-    payload = validate_token(token)
-    user_id = payload.get("sub")
-    token_type = payload.get("token_type")
-
-    if token_type != "access":
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Access token required",
-            headers={"WWW-Authenticate": "Bearer"},
-        )
-
-    try:
-        user_uuid = UUID(str(user_id))
-    except (TypeError, ValueError):
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Invalid token subject",
-            headers={"WWW-Authenticate": "Bearer"},
-        )
-
-    user = db.get(User, user_uuid)
-    if user is None:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="User not found"
-        )
-    if not user.is_active:
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="Inactive user",
-        )
-    return user
+    return get_user_from_token(token=token, db=db, expected_token_type="access")
 
 
 def get_current_user(
