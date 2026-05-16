@@ -9,6 +9,9 @@ class Settings(BaseSettings):
     DATABASE_URL: str
     JWT_ACCESS_TOKEN_TTL_MINUTES: int
     JWT_REFRESH_TOKEN_TTL_MINUTES: int
+    REFRESH_COOKIE_NAME: str = "refresh_token"
+    REFRESH_COOKIE_SECURE: bool = False
+    REFRESH_COOKIE_SAMESITE: str = "lax"
     ANON_DAILY_WORDS: int = 2
     FREE_DAILY_WORDS: int = 8
     PREMIUM_DAILY_WORDS: int = 16

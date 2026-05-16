@@ -1,5 +1,5 @@
 from typing import Annotated
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Request, Response, status
 import hashlib
 from datetime import datetime, timezone
 
@@ -9,9 +9,10 @@ from sqlalchemy.orm import Session
 from app.db.session import get_db
 from app.services.auth.security import hash_password, verify_password
 from app.services.auth.jwt_token import create_access_and_refresh_token, get_user_from_token, validate_token
+from app.core.config import settings
 from app.models.refresh_token import RefreshToken
 from app.models.user import User
-from app.schemas.user import UserCreate, UserLogin, AuthResponse, RefreshTokenIn
+from app.schemas.user import UserCreate, UserLogin, AuthResponse
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
@@ -52,12 +53,28 @@ def _get_active_refresh_token(db: Session, raw_refresh_token: str) -> RefreshTok
         )
     )
 
+
+def _set_refresh_cookie(response: Response, refresh_token: str) -> None:
+    response.set_cookie(
+        key=settings.REFRESH_COOKIE_NAME,
+        value=refresh_token,
+        httponly=True,
+        secure=settings.REFRESH_COOKIE_SECURE,
+        samesite=settings.REFRESH_COOKIE_SAMESITE,
+        max_age=settings.JWT_REFRESH_TOKEN_TTL_MINUTES * 60,
+        path="/auth",
+    )
+
+
+def _delete_refresh_cookie(response: Response) -> None:
+    response.delete_cookie(key=settings.REFRESH_COOKIE_NAME, path="/auth")
+
 @router.post(
     "/signup/",
     response_model=AuthResponse,
     status_code=status.HTTP_201_CREATED,
 )
-def signup(payload: UserCreate, db: DbSession) -> AuthResponse:
+def signup(payload: UserCreate, db: DbSession, response: Response) -> AuthResponse:
     existing_user = db.query(User).filter(User.email == payload.email).first()
     if existing_user:
         raise HTTPException(
@@ -77,13 +94,13 @@ def signup(payload: UserCreate, db: DbSession) -> AuthResponse:
     db.commit()
     db.refresh(user)
 
-    access_token, refresh_token = create_access_and_refresh_token(user=user)
-    _save_refresh_token(db, user, refresh_token)
+    access_token, new_refresh_token = create_access_and_refresh_token(user=user)
+    _save_refresh_token(db, user, new_refresh_token)
     db.commit()
 
+    _set_refresh_cookie(response, new_refresh_token)
     return AuthResponse(
         access_token=access_token,
-        refresh_token=refresh_token,
         user=user,
     )
 
@@ -93,7 +110,7 @@ def signup(payload: UserCreate, db: DbSession) -> AuthResponse:
     response_model=AuthResponse,
     status_code=status.HTTP_200_OK,
 )
-def login(payload: UserLogin, db: DbSession) -> AuthResponse:
+def login(payload: UserLogin, db: DbSession, response: Response) -> AuthResponse:
     user = db.query(User).filter(User.email == payload.email).first()
 
     if not user or not verify_password(payload.password, user.hashed_password):
@@ -108,13 +125,13 @@ def login(payload: UserLogin, db: DbSession) -> AuthResponse:
             detail="User is inactive",
         )
 
-    access_token, refresh_token = create_access_and_refresh_token(user=user)
-    _save_refresh_token(db, user, refresh_token)
+    access_token, new_refresh_token = create_access_and_refresh_token(user=user)
+    _save_refresh_token(db, user, new_refresh_token)
     db.commit()
+    _set_refresh_cookie(response, new_refresh_token)
 
     return AuthResponse(
         access_token=access_token,
-        refresh_token=refresh_token,
         user=user,
     )
 
@@ -124,8 +141,15 @@ def login(payload: UserLogin, db: DbSession) -> AuthResponse:
     response_model=AuthResponse,
     status_code=status.HTTP_200_OK,
 )
-def refresh_token(payload: RefreshTokenIn, db: DbSession) -> AuthResponse:
-    stored_token = _get_active_refresh_token(db, payload.refresh_token)
+def refresh_token(request: Request, response: Response, db: DbSession) -> AuthResponse:
+    raw_refresh_token = request.cookies.get(settings.REFRESH_COOKIE_NAME)
+    if not raw_refresh_token:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Missing refresh token cookie",
+        )
+
+    stored_token = _get_active_refresh_token(db, raw_refresh_token)
     if stored_token is None:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -139,20 +163,20 @@ def refresh_token(payload: RefreshTokenIn, db: DbSession) -> AuthResponse:
         )
 
     user = get_user_from_token(
-        token=payload.refresh_token,
+        token=raw_refresh_token,
         db=db,
         expected_token_type="refresh",
     )
 
     stored_token.revoked_at = datetime.now(timezone.utc)
 
-    access_token, refresh_token = create_access_and_refresh_token(user=user)
-    _save_refresh_token(db, user, refresh_token)
+    access_token, new_refresh_token = create_access_and_refresh_token(user=user)
+    _save_refresh_token(db, user, new_refresh_token)
     db.commit()
+    _set_refresh_cookie(response, new_refresh_token)
 
     return AuthResponse(
         access_token=access_token,
-        refresh_token=refresh_token,
         user=user,
     )
 
@@ -161,10 +185,18 @@ def refresh_token(payload: RefreshTokenIn, db: DbSession) -> AuthResponse:
     "/logout/",
     status_code=status.HTTP_204_NO_CONTENT,
 )
-def logout(payload: RefreshTokenIn, db: DbSession) -> None:
-    stored_token = _get_active_refresh_token(db, payload.refresh_token)
+def logout(request: Request, response: Response, db: DbSession) -> Response:
+    raw_refresh_token = request.cookies.get(settings.REFRESH_COOKIE_NAME)
+    if not raw_refresh_token:
+        _delete_refresh_cookie(response)
+        return Response(status_code=status.HTTP_204_NO_CONTENT)
+
+    stored_token = _get_active_refresh_token(db, raw_refresh_token)
     if stored_token is None:
-        return
+        _delete_refresh_cookie(response)
+        return Response(status_code=status.HTTP_204_NO_CONTENT)
 
     stored_token.revoked_at = datetime.now(timezone.utc)
     db.commit()
+    _delete_refresh_cookie(response)
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
