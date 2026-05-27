@@ -34,6 +34,13 @@ def _extract_token_expiration(token: str) -> datetime:
     return datetime.fromtimestamp(int(exp), tz=timezone.utc)
 
 
+def _as_utc(dt: datetime) -> datetime:
+    # Some DB drivers return naive datetimes; treat them as UTC.
+    if dt.tzinfo is None:
+        return dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc)
+
+
 def _save_refresh_token(db: Session, user: User, refresh_token: str) -> None:
     db.add(
         RefreshToken(
@@ -156,7 +163,7 @@ def refresh_token(request: Request, response: Response, db: DbSession) -> AuthRe
             detail="Refresh token is revoked or unknown",
         )
 
-    if stored_token.expires_at <= datetime.now(timezone.utc):
+    if _as_utc(stored_token.expires_at) <= datetime.now(timezone.utc):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Refresh token has expired",
